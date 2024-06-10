@@ -1,1 +1,1408 @@
+KC ID,L2 Name,L2 ID (actual coverage),L2 Description,Control Domain
+KC55,Anti-Malware,"AM-008a (2) & (4)
+","AM-008a: Ensure that any tools deployed to support AM purposes:
+1) is managed centrally so that policy enforcement and configuration is carried out centrally, including an automated malware definitions refresh,
+2) actively control monitored hosts compliance status (see section 7.2 “Review Frequency” for recommended frequency of the reviews/checks),
+3) ensures coverage of hosts in scope of the AM approach and strategy,
+4) enables remediation of issues identified by the AM tool (such as AM agent failures, signature accuracy, etc.),
+5) is integrated with applicable Group solutions (such as SIEM, security monitoring tools, SCCM),
+6) have access control and adhere to Group's Identity and Access Management Standard,
+7) is documented (architecture, configuration, data flows, services provided).
+[Reference: Security Logging and Monitoring Standard, Identity and Access Management Standard]
+Note: the AM tooling coverage –technical compatibility with Group approved product and platforms",Secure Configuration Management
+KC59,Anti-Malware,"AM-008a (2) & (4)
+","AM-008a: Ensure that any tools deployed to support AM purposes:
+1) is managed centrally so that policy enforcement and configuration is carried out centrally, including an automated malware definitions refresh,
+2) actively control monitored hosts compliance status (see section 7.2 “Review Frequency” for recommended frequency of the reviews/checks),
+3) ensures coverage of hosts in scope of the AM approach and strategy,
+4) enables remediation of issues identified by the AM tool (such as AM agent failures, signature accuracy, etc.),
+5) is integrated with applicable Group solutions (such as SIEM, security monitoring tools, SCCM),
+6) have access control and adhere to Group's Identity and Access Management Standard,
+7) is documented (architecture, configuration, data flows, services provided).
+[Reference: Security Logging and Monitoring Standard, Identity and Access Management Standard]
+Note: the AM tooling coverage –technical compatibility with Group approved product and platforms",Secure Configuration Management
+KC94,Web Filtering,"WF-030 || WF-070 || WF-090 || WF-130 ||
+WF-140 || WF-150","WF-030: Ensure a dedicated web filtering solution must be used to control access to websites and file types based on categories and contents in Production and non-Production. || 
+WF-070: Ensure access to web categories or websites, files types and content which pose a security risk to the Group must be restricted / blocked by default and exceptions must be formally agreed in line with the process rolled out by the GPO [Group Process Owner]. ||
+WF-090: Maintain an accurate and up to date catalogue of the white-listed web categories or websites in the web filtering solution, including the justification and valid approval for white-listing them in Production and non-Production. ||
+WF-130: Ensure a process is defined to handle requests received for restricted web categories or websites that fall under ""Non-ICS Risk"" type.
+Note: The access will be provided for a period of 6 months requiring recertification before it can be extended. ||
+WF-140: Ensure a process is defined to handle requests received for restricted web categories or websites that fall under “ICS Risk” type. ||
+WF-150: Ensure the process involves the relevant Business, Function or Regional HICS to review and approve these requests before access is granted.
+Note: The access will be provided for the period of 6 months requiring recertification before it can be extended",Secure Configuration Management
+KC54c,"IT Service Continuity Management (ITSCM) Standard; 
+IT Resilience Management Standard",NotICS-RES.ITSCM.SC.CR01,"RES.ITSCM.SD.CR01: Technology Service Owner must ensure recovery plans are developed for all technology services as per 'RES.ITSCM.NORM02 4.1.2.1 Plan Development’
+
+RES.ITSCM.SD.CR02: Technology Support Manager must review recovery plans regularly as per 'RES.ITSCM.NORM02 4.1.2.2 Plan Maintenance'
+
+RES.ITSCM.SR.CR02:Technology Service Owner and Technology Data Owner must define the data requirements to ensure system availability to the Business following a disaster
+
+Technology Service Owner must define the schedule for storing relevant data to support continuity requirements.
+Technology Data Owner must ensure a copy of relevant production data is stored independently (separate to the production environment) to facilitate continuity following a disaster as per
+'4.1.1.2 Data Availability for Service Continuity' and '4.1.2 RES.RM.NORM02 Criticality Rating'
+
+RES.RM.RR.CR01: Technology Council(s) must ensure that designs of all Technology Services including 3rd Party Provided services adhere to availability and recovery non-functional requirements associated with its criticality rating as per '4.1.2 Criticality Rating'
+
+RES.RM.RR.CR02: Technology Service Owner must ensure that the availability and recovery capability of their Technology Services (including those provided by a 3rd Party) are in line with the criticality of the business capability that these services enable as per '4.1.2 Criticality Rating'
+
+RES.RM.RR.CR03: Technology Support Manager must ensure that the all Technology Services (including those provided by a 3rd Party) are assured to deliver resilience capabilities that adhere to availability and recovery non-functional requirements associated with its criticality rating as per '4.1.2 Criticality Rating'. Where exceptions are noted, the service agreement must be updated to reflect actual resilience capabilities
+
+RES.ITSCM.SR.CR02:Technology Service Owner and Technology Data Owner must define the data requirements to ensure system availability to the Business following a disaster
+
+Technology Service Owner must define the schedule for storing relevant data to support continuity requirements.
+Technology Data Owner must ensure a copy of relevant production data is stored independently (separate to the production environment) to facilitate continuity following a disaster
+as per
+'4.1.1.2 Data Availability for Service Continuity' and '4.1.2 RES.RM.NORM02 Criticality Rating'",Security Incident Management
+KC54e,"IT Service Continuity Management (ITSCM) Standard; 
+IT Resilience Management Standard",NotICS-RES.ITSCM.SC.CR01,"RES.ITSCM.SD.CR01: Technology Service Owner must ensure recovery plans are developed for all technology services as per 'RES.ITSCM.NORM02 4.1.2.1 Plan Development’
+
+RES.ITSCM.SD.CR02: Technology Support Manager must review recovery plans regularly as per 'RES.ITSCM.NORM02 4.1.2.2 Plan Maintenance'
+
+RES.ITSCM.SR.CR02:Technology Service Owner and Technology Data Owner must define the data requirements to ensure system availability to the Business following a disaster
+
+Technology Service Owner must define the schedule for storing relevant data to support continuity requirements.
+Technology Data Owner must ensure a copy of relevant production data is stored independently (separate to the production environment) to facilitate continuity following a disaster as per
+'4.1.1.2 Data Availability for Service Continuity' and '4.1.2 RES.RM.NORM02 Criticality Rating'
+
+RES.RM.RR.CR01: Technology Council(s) must ensure that designs of all Technology Services including 3rd Party Provided services adhere to availability and recovery non-functional requirements associated with its criticality rating as per '4.1.2 Criticality Rating'
+
+RES.RM.RR.CR02: Technology Service Owner must ensure that the availability and recovery capability of their Technology Services (including those provided by a 3rd Party) are in line with the criticality of the business capability that these services enable as per '4.1.2 Criticality Rating'
+
+RES.RM.RR.CR03: Technology Support Manager must ensure that the all Technology Services (including those provided by a 3rd Party) are assured to deliver resilience capabilities that adhere to availability and recovery non-functional requirements associated with its criticality rating as per '4.1.2 Criticality Rating'. Where exceptions are noted, the service agreement must be updated to reflect actual resilience capabilities
+
+RES.ITSCM.SR.CR02:Technology Service Owner and Technology Data Owner must define the data requirements to ensure system availability to the Business following a disaster
+
+Technology Service Owner must define the schedule for storing relevant data to support continuity requirements.
+Technology Data Owner must ensure a copy of relevant production data is stored independently (separate to the production environment) to facilitate continuity following a disaster
+as per
+'4.1.1.2 Data Availability for Service Continuity' and '4.1.2 RES.RM.NORM02 Criticality Rating'",Security Incident Management
+KC54a,"IT Service Continuity Management (ITSCM) Standard; 
+IT Resilience Management Standard",NotICS-RES.ITSCM.SC.CR01,"RES.ITSCM.SD.CR01: Technology Service Owner must ensure recovery plans are developed for all technology services as per 'RES.ITSCM.NORM02 4.1.2.1 Plan Development’
+
+RES.ITSCM.SD.CR02: Technology Support Manager must review recovery plans regularly as per 'RES.ITSCM.NORM02 4.1.2.2 Plan Maintenance'
+
+RES.ITSCM.SR.CR02:Technology Service Owner and Technology Data Owner must define the data requirements to ensure system availability to the Business following a disaster
+
+Technology Service Owner must define the schedule for storing relevant data to support continuity requirements.
+Technology Data Owner must ensure a copy of relevant production data is stored independently (separate to the production environment) to facilitate continuity following a disaster as per
+'4.1.1.2 Data Availability for Service Continuity' and '4.1.2 RES.RM.NORM02 Criticality Rating'
+
+RES.RM.RR.CR01: Technology Council(s) must ensure that designs of all Technology Services including 3rd Party Provided services adhere to availability and recovery non-functional requirements associated with its criticality rating as per '4.1.2 Criticality Rating'
+
+RES.RM.RR.CR02: Technology Service Owner must ensure that the availability and recovery capability of their Technology Services (including those provided by a 3rd Party) are in line with the criticality of the business capability that these services enable as per '4.1.2 Criticality Rating'
+
+RES.RM.RR.CR03: Technology Support Manager must ensure that the all Technology Services (including those provided by a 3rd Party) are assured to deliver resilience capabilities that adhere to availability and recovery non-functional requirements associated with its criticality rating as per '4.1.2 Criticality Rating'. Where exceptions are noted, the service agreement must be updated to reflect actual resilience capabilities
+
+RES.ITSCM.SR.CR02:Technology Service Owner and Technology Data Owner must define the data requirements to ensure system availability to the Business following a disaster
+
+Technology Service Owner must define the schedule for storing relevant data to support continuity requirements.
+Technology Data Owner must ensure a copy of relevant production data is stored independently (separate to the production environment) to facilitate continuity following a disaster
+as per
+'4.1.1.2 Data Availability for Service Continuity' and '4.1.2 RES.RM.NORM02 Criticality Rating'",Security Incident Management
+KC122f,Vulnerability Identification and Management,VIAM-370                  ,"VIAM-370: Document, track and implement remediation actions with agreed timelines for identified vulnerabilities or security configuration gaps. If the remediation timeline is in breach with the timeline defined in Appendix: Table 2 – Vulnerabilities Classification and Remediation, then a relevant valid risk treatment must be documented and tracked.",System Lifecycle Security (incl. Vulnerability Management)
+KC122d,Vulnerability Identification and Management,VIAM-370                  ,"VIAM-370: Document, track and implement remediation actions with agreed timelines for identified vulnerabilities or security configuration gaps. If the remediation timeline is in breach with the timeline defined in Appendix: Table 2 – Vulnerabilities Classification and Remediation, then a relevant valid risk treatment must be documented and tracked.",System Lifecycle Security (incl. Vulnerability Management)
+KC122f,Vulnerability Identification and Management,VIAM-370                  ,"VIAM-370: Document, track and implement remediation actions with agreed timelines for identified vulnerabilities or security configuration gaps. If the remediation timeline is in breach with the timeline defined in Appendix: Table 2 – Vulnerabilities Classification and Remediation, then a relevant valid risk treatment must be documented and tracked.",System Lifecycle Security (incl. Vulnerability Management)
+KC122f,Vulnerability Identification and Management,VIAM-370                  ,"VIAM-370: Document, track and implement remediation actions with agreed timelines for identified vulnerabilities or security configuration gaps. If the remediation timeline is in breach with the timeline defined in Appendix: Table 2 – Vulnerabilities Classification and Remediation, then a relevant valid risk treatment must be documented and tracked.",System Lifecycle Security (incl. Vulnerability Management)
+KC122d,Vulnerability Identification and Management,VIAM-370                  ,"VIAM-370: Document, track and implement remediation actions with agreed timelines for identified vulnerabilities or security configuration gaps. If the remediation timeline is in breach with the timeline defined in Appendix: Table 2 – Vulnerabilities Classification and Remediation, then a relevant valid risk treatment must be documented and tracked.",System Lifecycle Security (incl. Vulnerability Management)
+KC85,Network Security Management,NSM-510,NSM-510: Deploy Network Intrusion Detection Systems [NIDS] / Network Intrusion Prevention Systems [NIPS] tools on Information Systems and Technology Infrastructure:at each Internet Gateway;at each DMZ network boundary.Exception: If SDWAN is deployed on Internet Gateway then this control is not applicable.[Reference: NSM-515],Network Security Management
+KC121a,Vulnerability Identification and Management,VIAM-370,"VIAM-370: Document, track and implement remediation actions with agreed timelines for identified vulnerabilities or security configuration gaps. If the remediation timeline is in breach with the timeline defined in Appendix: Table 2 – Vulnerabilities Classification and Remediation, then a relevant valid risk treatment must be documented and tracked.",System Lifecycle Security (incl. Vulnerability Management)
+KC63,Data Leakage Prevention,"DLP-010b  ||
+
+DLP Standards – Appendix Section 7.2","DLP-010b: Ensure that the data protection approach and enforcement consider (where applicable): 1) identified and prioritised data loss vectors, as defined in the Strategy 2) asset exposure to DLP identified threats and risks, as per the Strategy, 3) sensitivity of the data in question as per its Confidentiality rating, 4) data content and data use context, 5) baseline requirements, as listed in Appendix – section 7.2 “Baseline DLP Requirements for Assets and Information”. 
+
+DLP Standards – Appendix Section 7.2: USB ports (or any such removal media interfaces) blocking by default on laptops, desktops, servers, workstations unless authorised for use by exception process. Initiation of semi-annual reviews of the user access granted to portable storage devices use.",Information Protection
+KC90,Secure Configuration Management,"SCM-190  || 
+SCM-180","SCM-190: Implement security baseline configuration and systems security settings for Information System and Technology Infrastructure.  ||
+SCM-180: Closely monitor the end of support dates of hardware and software and proactively manage the lifecycle of the products in use to ensure all products are supportable, so as to mitigate information security risks, such as those arising from the non-availability of security patches.  Where any hardware or software products are approaching end of support or will continue to be used after end of support, assess the risks associated and ensure appropriate risk management.",Secure Configuration Management
+KC94,Web Filtering,"WF-010 || 
+WF-020","WF-010: Ensure the Technology Infrastructure Owners and Process Owners implement Group approved web filtering solutions to protect Information Systems and Technology Infrastructure in. ||
+WF-020: Filter all web traffic traversing through the Group network to prevent exposure of Group Staff and Information Systems and Technology Infrastructure to offensive, illegal and dangerous web content.",Secure Configuration Management
+KC83,Network Security Management,NSM-450,NSM-450: Use only Group authorized Network Management Interfaces to manage Technology Infrastructure. Such Management Interfaces must accept connection requests only from approved authorised sources.,Network Security Management
+KC73,Cryptography,"CRY-120  || 
+CRY-170  || 
+CRY-130  || 
+CRY-160  || 
+CRY-135  || 
+CRY-150","CRY-120: Protect cryptographic keys against:Access by unauthorized individuals or applications,Accidental or malicious destruction.  ||
+
+CRY-170:  Perform an assessment to establish which cryptographic keys need to be preserved (Backup and Recovery) for possible recovery. The key backup must be performed on an independent, secure electronic storage media device. The backup of keys must be retained in line with the requirements from Group Records Management Policy.  ||
+
+CRY-130: Ensure that all cryptographic keys and cryptographic key components are generated using a random number generator or a pseudo-random number generator that passes all the basic tests for statistical randomness, as defined in the National Institute of Standards and Technology [NIST].  ||
+
+CRY-160: In the case of suspected or factual key compromise,  without undue delay: 
+a) perform a risk assessment for the impact on the downstream/upstream system as well as backups. 
+b) replace the cryptographic key or key component (if applicable)
+c) Replace any key(s) that are derived from the compromised key
+d) report the breach and communicate the impact of the key compromise through Group’s Security Incident Management Process.  ||
+
+CRY-135: Ensure there is dual control and split knowledge in place to manage manual clear-text cryptographic key generation, transmission, loading, storage, and destruction (where applicable . [Reference: PCI DSS Version 3.2.1 - Requirement 3.6.6].  ||
+
+CRY-150: Define and follow cryptographic keys life cycle that should: 
+a) ensure operational stability, 
+b) include regular reviews to confirm being in line with the requirements defined in 6.1 Regulatory/Industry References, 
+c) reconciliation 
+d) expiry notification 
+e) enforce key rotation at least as: 
+- Key Type: Private Signature Key; Originator Usage period: 3 years, Recipient usage period: NA, 
+- Key Type: Private/Public Authentication Key; Originator Usage period: 2 years, Recipient usage period: 2 years, 
+- Key Type: Symmetric Authentication Key; Originator Usage period: 2 years, Recipient usage period: 5 years, 
+- Key Type: Symmetric Data encryption Keys; Originator Usage period: 2 years, Recipient usage period: 5 years, 
+- Key Type:Symmetric Key-Wrapping Keys:  Originator Usage period: 2 years, Recipient usage period: 5 years (i.e. OUP + 3 years), 
+- Key Type: Symmetric Master Keys;  Originator Usage period: 1 years, Recipient usage period: NA. 
+Note: A higher frequency may be determined byt he Key Owner. In the case of key compromise its cryptoperiod is no longer considered valid.",Information Protection
+KC73,Cryptography,"CRY-120  || 
+CRY-170  || 
+CRY-130  || 
+CRY-160  || 
+CRY-135  || 
+CRY-150","CRY-120: Protect cryptographic keys against:Access by unauthorized individuals or applications,Accidental or malicious destruction.  ||
+
+CRY-170:  Perform an assessment to establish which cryptographic keys need to be preserved (Backup and Recovery) for possible recovery. The key backup must be performed on an independent, secure electronic storage media device. The backup of keys must be retained in line with the requirements from Group Records Management Policy.  ||
+
+CRY-130: Ensure that all cryptographic keys and cryptographic key components are generated using a random number generator or a pseudo-random number generator that passes all the basic tests for statistical randomness, as defined in the National Institute of Standards and Technology [NIST].  ||
+
+CRY-160: In the case of suspected or factual key compromise,  without undue delay: 
+a) perform a risk assessment for the impact on the downstream/upstream system as well as backups. 
+b) replace the cryptographic key or key component (if applicable)
+c) Replace any key(s) that are derived from the compromised key
+d) report the breach and communicate the impact of the key compromise through Group’s Security Incident Management Process.  ||
+
+CRY-135: Ensure there is dual control and split knowledge in place to manage manual clear-text cryptographic key generation, transmission, loading, storage, and destruction (where applicable . [Reference: PCI DSS Version 3.2.1 - Requirement 3.6.6].  ||
+
+CRY-150: Define and follow cryptographic keys life cycle that should: 
+a) ensure operational stability, 
+b) include regular reviews to confirm being in line with the requirements defined in 6.1 Regulatory/Industry References, 
+c) reconciliation 
+d) expiry notification 
+e) enforce key rotation at least as: 
+- Key Type: Private Signature Key; Originator Usage period: 3 years, Recipient usage period: NA, 
+- Key Type: Private/Public Authentication Key; Originator Usage period: 2 years, Recipient usage period: 2 years, 
+- Key Type: Symmetric Authentication Key; Originator Usage period: 2 years, Recipient usage period: 5 years, 
+- Key Type: Symmetric Data encryption Keys; Originator Usage period: 2 years, Recipient usage period: 5 years, 
+- Key Type:Symmetric Key-Wrapping Keys:  Originator Usage period: 2 years, Recipient usage period: 5 years (i.e. OUP + 3 years), 
+- Key Type: Symmetric Master Keys;  Originator Usage period: 1 years, Recipient usage period: NA. 
+Note: A higher frequency may be determined byt he Key Owner. In the case of key compromise its cryptoperiod is no longer considered valid.",Information Protection
+KC73,Cryptography,"CRY-100 ||
+CRY-030","CRY-100: Establish a documented process for managing cryptographic keys (including software-based and Hardware Security Module [HSM]), which covers: key life cycle management (generation using approved algorithms and key lengths, rotation, renewal, revocation, destruction),secure distribution, activation, and storage, key backup and recovery (including assessment to decide which cryptographic keys need to be preserved),key validity period (encryption / decryption),restriction of access to cryptographic keys to authorised Staff, sharing of cryptographic keys (e.g. using split key generation) required for protecting confidential information and critical systems, restriction that compromised, revoked, or expired cryptographic keys cannot be used for encryption of any new data, Key Ceremony [CRY-105].Note: STS-Information Protection - Process Owner/Information Protection is the appointed CISO function.
+
+CRY-030: Ensure that cryptographic keys are stored, at the minimum, in FIPS 140-2 level 2 validated key vault (exclusions apply – see ‘Notes’, ‘Exclusions’ and ‘References’ below).
+
+",Information Protection
+KC73,Cryptography,CRY-150,"CRY-150: Define and follow cryptographic keys life cycle that should: ensure operational stability, include regular reviews to confirm being in line with the requirements defined in 6.1 Regulatory/Industry References,reconciliation,expiry notifications,enforce key rotation at least as: Key Type: Private Signature key; Originator Usage period: 3 years, Recipient usage period: NA,Key Type: Private/Public Authentication Key; Originator Usage period: 2 years, Recipient usage period: 2 years,Key Type: Symmetric Authentication key; Originator Usage period: 2 years, Recipient usage period: 5 years,Key Type: Symmetric Data encryption Keys; Originator Usage period: 2 years, Recipient usage period: 5 years,Key Type: Symmetric Key-Wrapping Keys; Originator Usage period: 2 years, Recipient usage period: 5 years (i.e. OUP + 3 years),Key Type: Symmetric Master Keys; Originator Usage period: 1 years, Recipient usage period: NA.Note: A higher frequency may be determined by the Key Owner. In the case of key compromise its cryptoperiod is no longer considered valid.",Information Protection
+KC73,Cryptography,CRY-140,CRY-140: Only allow use of cryptographic keys for a single intended purpose and restrict reuse between Information Systems.,Information Protection
+KC73,Cryptography,CRY-102,"CRY-102: Ensure that: any top-level key generation/rotation for devices that are providing cryptography services are performed from a physically secured location,any key lifecycle management operations are:conducted with appropriate level of approvals,in line with a formal and valid change request,documented and auditable.",Information Protection
+KC73,Cryptography,"CRY-135 ||
+CRY-060 ||
+CRY-065","CRY-135: Ensure there is dual control and split knowledge in place to manage manual clear-text cryptographic key generation, transmission, loading, storage, and destruction (where applicable). [Reference: PCI DSS Version 3.2.1 - Requirement 3.6.6].[Reference: CRY-102] ||
+CRY-060: Ensure that when software-based cryptography is implemented then the private keys and authentication data (e.g. passwords, passphrases, PINs) are not stored in plain text (e.g. in program, batch file, script file, database). ||
+CRY-065: Ensure that when tokenization or salting or peppering methods are used then uniqueness and randomization is enforced with the usage of a National Institute of Standards and Technology [NIST] defined random number generator or a pseudo-random number generator that passes all the basic tests for statistical randomness.",Information Protection
+KC73,Cryptography,"CRY-135 ||
+CRY-060 ||
+CRY-065","CRY-135: Ensure there is dual control and split knowledge in place to manage manual clear-text cryptographic key generation, transmission, loading, storage, and destruction (where applicable). [Reference: PCI DSS Version 3.2.1 - Requirement 3.6.6].[Reference: CRY-102] ||
+CRY-060: Ensure that when software-based cryptography is implemented then the private keys and authentication data (e.g. passwords, passphrases, PINs) are not stored in plain text (e.g. in program, batch file, script file, database). ||
+CRY-065: Ensure that when tokenization or salting or peppering methods are used then uniqueness and randomization is enforced with the usage of a National Institute of Standards and Technology [NIST] defined random number generator or a pseudo-random number generator that passes all the basic tests for statistical randomness.",Information Protection
+KC73,Cryptography,"CRY-120 ||
+CRY-066","CRY-120: Protect cryptographic keys against:Access by unauthorized individuals or applications,Accidental or malicious destruction. ||
+CRY-066: Ensure that hashed passwords are salted.",Information Protection
+KC73,Cryptography,"CRY-105 ||
+CRY-030 ||
+CRY-031 ||
+CRY-034
+","CRY-105: Perform Key Ceremonies: During the master key (top level key) generation process for HSMs;For top level keys of the Information systems providing services dependent on cryptography to multiple downstream systems with the Banks central Crypto Services. ||
+CRY-030: Ensure that cryptographic keys are stored, at the minimum, in FIPS 140-2 level 2 validated key vault (exclusions apply – see ‘Notes’, ‘Exclusions’ and ‘References’ below). ||
+CRY-031: Ensure that physical/hardware devices, for example, Hardware Security Modules (HSMs)used for cryptographic keys storage are tamper resistant. ||
+CRY-034: Ensure that keys used in the PCI data processing are stored in the PCI-DSS compliant crypto modules.",Information Protection
+KC73,Cryptography,CRY-090,CRY-090: Ensure that owners of cryptographic keys: Are made aware of their responsibilities for using and protecting keys (and where necessary disclosing keys) assigned to them. Confirm they clearly understand their responsibilities for using and protecting cryptographic keys.,Information Protection
+KC56a,Data Leakage Prevention,"DLP-010a  ||
+
+DLP-010b  ||
+
+DLP Standards – Appendix Section 7.2:
+Data-At-Rest","DLP-010a: Define and enforce security policies and data protection mechanisms to proactively prevent sensitive data from leaving the Group’s IT environment.
+[Enforcement of the data protection may be executed as centrally enforced configuration policy (such as AD GPO, dedicated agent delivered, etc.) or by defining and publishing configuration guidelines for specific technologies or platforms.]  ||
+
+DLP-010b: Ensure that the data protection approach and enforcement consider (where applicable): 1) identified and prioritised data loss vectors, as defined in the Strategy 2) asset exposure to DLP identified threats and risks, as per the Strategy, 3) sensitivity of the data in question as per its Confidentiality rating, 4) data content and data use context, 5) baseline requirements, as listed in Appendix – section 7.2 “Baseline DLP Requirements for Assets and Information”. 
+
+DLP Standards – Appendix Section 7.2:
+Data-At-Rest - Information Assets (and the data representing the IA) stored within the Group (including 3rd party hosted Technology Infrastructure) encryption4 (Group approved encryption solutions), in line with classification and handling requirements (as defined in Information Handling Standard). For Example: Network File Shares [NFS], Storage Area Networks [SAN], SharePoint sites and Databases.",Information Protection
+KC56a,Data Leakage Prevention,"DLP-010a  ||
+
+DLP-010b  ||
+
+DLP Standards – Appendix Section 7.2:
+Data-At-Rest","DLP-010a: Define and enforce security policies and data protection mechanisms to proactively prevent sensitive data from leaving the Group’s IT environment.
+[Enforcement of the data protection may be executed as centrally enforced configuration policy (such as AD GPO, dedicated agent delivered, etc.) or by defining and publishing configuration guidelines for specific technologies or platforms.]  ||
+
+DLP-010b: Ensure that the data protection approach and enforcement consider (where applicable): 1) identified and prioritised data loss vectors, as defined in the Strategy 2) asset exposure to DLP identified threats and risks, as per the Strategy, 3) sensitivity of the data in question as per its Confidentiality rating, 4) data content and data use context, 5) baseline requirements, as listed in Appendix – section 7.2 “Baseline DLP Requirements for Assets and Information”. 
+
+DLP Standards – Appendix Section 7.2:
+Data-At-Rest - Information Assets (and the data representing the IA) stored within the Group (including 3rd party hosted Technology Infrastructure) encryption4 (Group approved encryption solutions), in line with classification and handling requirements (as defined in Information Handling Standard). For Example: Network File Shares [NFS], Storage Area Networks [SAN], SharePoint sites and Databases.",Information Protection
+KC56a,Data Leakage Prevention,"DLP-010a  ||
+
+DLP-010b  ||
+
+DLP Standards – Appendix Section 7.2:
+Data-At-Rest","DLP-010a: Define and enforce security policies and data protection mechanisms to proactively prevent sensitive data from leaving the Group’s IT environment.
+[Enforcement of the data protection may be executed as centrally enforced configuration policy (such as AD GPO, dedicated agent delivered, etc.) or by defining and publishing configuration guidelines for specific technologies or platforms.]  ||
+
+DLP-010b: Ensure that the data protection approach and enforcement consider (where applicable): 1) identified and prioritised data loss vectors, as defined in the Strategy 2) asset exposure to DLP identified threats and risks, as per the Strategy, 3) sensitivity of the data in question as per its Confidentiality rating, 4) data content and data use context, 5) baseline requirements, as listed in Appendix – section 7.2 “Baseline DLP Requirements for Assets and Information”. 
+
+DLP Standards – Appendix Section 7.2:
+Data-At-Rest - Information Assets (and the data representing the IA) stored within the Group (including 3rd party hosted Technology Infrastructure) encryption4 (Group approved encryption solutions), in line with classification and handling requirements (as defined in Information Handling Standard). For Example: Network File Shares [NFS], Storage Area Networks [SAN], SharePoint sites and Databases.",Information Protection
+KC56a,Data Leakage Prevention,"DLP-010a  ||
+
+DLP-010b  ||
+
+DLP Standards – Appendix Section 7.2:
+Data-At-Rest","DLP-010a: Define and enforce security policies and data protection mechanisms to proactively prevent sensitive data from leaving the Group’s IT environment.
+[Enforcement of the data protection may be executed as centrally enforced configuration policy (such as AD GPO, dedicated agent delivered, etc.) or by defining and publishing configuration guidelines for specific technologies or platforms.]  ||
+
+DLP-010b: Ensure that the data protection approach and enforcement consider (where applicable): 1) identified and prioritised data loss vectors, as defined in the Strategy 2) asset exposure to DLP identified threats and risks, as per the Strategy, 3) sensitivity of the data in question as per its Confidentiality rating, 4) data content and data use context, 5) baseline requirements, as listed in Appendix – section 7.2 “Baseline DLP Requirements for Assets and Information”. 
+
+DLP Standards – Appendix Section 7.2:
+Data-At-Rest - Information Assets (and the data representing the IA) stored within the Group (including 3rd party hosted Technology Infrastructure) encryption4 (Group approved encryption solutions), in line with classification and handling requirements (as defined in Information Handling Standard). For Example: Network File Shares [NFS], Storage Area Networks [SAN], SharePoint sites and Databases.",Information Protection
+KC56a,Data Leakage Prevention,"DLP-010a  ||
+
+DLP-010b  ||
+
+DLP Standards – Appendix Section 7.2:
+Data-At-Rest","DLP-010a: Define and enforce security policies and data protection mechanisms to proactively prevent sensitive data from leaving the Group’s IT environment.
+[Enforcement of the data protection may be executed as centrally enforced configuration policy (such as AD GPO, dedicated agent delivered, etc.) or by defining and publishing configuration guidelines for specific technologies or platforms.]  ||
+
+DLP-010b: Ensure that the data protection approach and enforcement consider (where applicable): 1) identified and prioritised data loss vectors, as defined in the Strategy 2) asset exposure to DLP identified threats and risks, as per the Strategy, 3) sensitivity of the data in question as per its Confidentiality rating, 4) data content and data use context, 5) baseline requirements, as listed in Appendix – section 7.2 “Baseline DLP Requirements for Assets and Information”. 
+
+DLP Standards – Appendix Section 7.2:
+Data-At-Rest - Information Assets (and the data representing the IA) stored within the Group (including 3rd party hosted Technology Infrastructure) encryption4 (Group approved encryption solutions), in line with classification and handling requirements (as defined in Information Handling Standard). For Example: Network File Shares [NFS], Storage Area Networks [SAN], SharePoint sites and Databases.",Information Protection
+KC56a,Data Leakage Prevention,"DLP-010a  ||
+
+DLP-010b  ||
+
+DLP Standards – Appendix Section 7.2:
+Data-At-Rest","DLP-010a: Define and enforce security policies and data protection mechanisms to proactively prevent sensitive data from leaving the Group’s IT environment.
+[Enforcement of the data protection may be executed as centrally enforced configuration policy (such as AD GPO, dedicated agent delivered, etc.) or by defining and publishing configuration guidelines for specific technologies or platforms.]  ||
+
+DLP-010b: Ensure that the data protection approach and enforcement consider (where applicable): 1) identified and prioritised data loss vectors, as defined in the Strategy 2) asset exposure to DLP identified threats and risks, as per the Strategy, 3) sensitivity of the data in question as per its Confidentiality rating, 4) data content and data use context, 5) baseline requirements, as listed in Appendix – section 7.2 “Baseline DLP Requirements for Assets and Information”. 
+
+DLP Standards – Appendix Section 7.2:
+Data-At-Rest - Information Assets (and the data representing the IA) stored within the Group (including 3rd party hosted Technology Infrastructure) encryption4 (Group approved encryption solutions), in line with classification and handling requirements (as defined in Information Handling Standard). For Example: Network File Shares [NFS], Storage Area Networks [SAN], SharePoint sites and Databases.",Information Protection
+KC56a,Data Leakage Prevention,"DLP-010a  ||
+
+DLP-010b  ||
+
+DLP Standards – Appendix Section 7.2:
+Data-At-Rest","DLP-010a: Define and enforce security policies and data protection mechanisms to proactively prevent sensitive data from leaving the Group’s IT environment.
+[Enforcement of the data protection may be executed as centrally enforced configuration policy (such as AD GPO, dedicated agent delivered, etc.) or by defining and publishing configuration guidelines for specific technologies or platforms.]  ||
+
+DLP-010b: Ensure that the data protection approach and enforcement consider (where applicable): 1) identified and prioritised data loss vectors, as defined in the Strategy 2) asset exposure to DLP identified threats and risks, as per the Strategy, 3) sensitivity of the data in question as per its Confidentiality rating, 4) data content and data use context, 5) baseline requirements, as listed in Appendix – section 7.2 “Baseline DLP Requirements for Assets and Information”. 
+
+DLP Standards – Appendix Section 7.2:
+Data-At-Rest - Information Assets (and the data representing the IA) stored within the Group (including 3rd party hosted Technology Infrastructure) encryption4 (Group approved encryption solutions), in line with classification and handling requirements (as defined in Information Handling Standard). For Example: Network File Shares [NFS], Storage Area Networks [SAN], SharePoint sites and Databases.",Information Protection
+KC56b,Data Leakage Prevention,"DLP-010a  ||
+
+DLP-010b  ||
+
+DLP Standards – Appendix Section 7.2:
+Data-At-Rest","DLP-010a: Define and enforce security policies and data protection mechanisms to proactively prevent sensitive data from leaving the Group’s IT environment.
+[Enforcement of the data protection may be executed as centrally enforced configuration policy (such as AD GPO, dedicated agent delivered, etc.) or by defining and publishing configuration guidelines for specific technologies or platforms.]  ||
+
+DLP-010b: Ensure that the data protection approach and enforcement consider (where applicable): 1) identified and prioritised data loss vectors, as defined in the Strategy 2) asset exposure to DLP identified threats and risks, as per the Strategy, 3) sensitivity of the data in question as per its Confidentiality rating, 4) data content and data use context, 5) baseline requirements, as listed in Appendix – section 7.2 “Baseline DLP Requirements for Assets and Information”. 
+
+DLP Standards – Appendix Section 7.2:
+Data-At-Rest - Information Assets (and the data representing the IA) stored within the Group (including 3rd party hosted Technology Infrastructure) encryption4 (Group approved encryption solutions), in line with classification and handling requirements (as defined in Information Handling Standard). For Example: Network File Shares [NFS], Storage Area Networks [SAN], SharePoint sites and Databases.",Information Protection
+KC90,Secure Configuration Management,"SCM-190  || 
+SCM-180","SCM-190: Implement security baseline configuration and systems security settings for Information System and Technology Infrastructure.  ||
+SCM-180: Closely monitor the end of support dates of hardware and software and proactively manage the lifecycle of the products in use to ensure all products are supportable, so as to mitigate information security risks, such as those arising from the non-availability of security patches.  Where any hardware or software products are approaching end of support or will continue to be used after end of support, assess the risks associated and ensure appropriate risk management.",Secure Configuration Management
+KC67,Data Leakage Prevention,DLP-006,"DLP-006: Ensure that any tools deployed to support DLP purposes: 
+1) actively control monitored hosts compliance status, 
+2) ensures coverage of hosts in scope of the DLP approach and strategy, 
+3) enables remediation of issue identified by the DLP tool, 
+4) is integrated with applicable Group solutions (such as AD, SIEM, security monitoring tools, SCCM), 
+5) have access control and adhere to Group's Identity and Access Management Standard, 
+6) does not compromise host security by partnering with respective technology owner during DLP implementation, 
+7) supports predefined DLP rules and configuration enforcement, 
+8) is documented (architecture, configuration, data flows, services provided).",Information Protection
+KC66,Data Leakage Prevention,DLP-006,"DLP-006: Ensure that any tools deployed to support DLP purposes: 
+1) actively control monitored hosts compliance status, 
+2) ensures coverage of hosts in scope of the DLP approach and strategy, 
+3) enables remediation of issue identified by the DLP tool, 
+4) is integrated with applicable Group solutions (such as AD, SIEM, security monitoring tools, SCCM), 
+5) have access control and adhere to Group's Identity and Access Management Standard, 
+6) does not compromise host security by partnering with respective technology owner during DLP implementation, 
+7) supports predefined DLP rules and configuration enforcement, 
+8) is documented (architecture, configuration, data flows, services provided).",Information Protection
+KC61,Data Leakage Prevention,DLP-006,"DLP-006: Ensure that any tools deployed to support DLP purposes: 
+1) actively control monitored hosts compliance status, 
+2) ensures coverage of hosts in scope of the DLP approach and strategy, 
+3) enables remediation of issue identified by the DLP tool, 
+4) is integrated with applicable Group solutions (such as AD, SIEM, security monitoring tools, SCCM), 
+5) have access control and adhere to Group's Identity and Access Management Standard, 
+6) does not compromise host security by partnering with respective technology owner during DLP implementation, 
+7) supports predefined DLP rules and configuration enforcement, 
+8) is documented (architecture, configuration, data flows, services provided).",Information Protection
+KC64,Data Leakage Prevention,DLP-006,"DLP-006: Ensure that any tools deployed to support DLP purposes: 
+1) actively control monitored hosts compliance status, 
+2) ensures coverage of hosts in scope of the DLP approach and strategy, 
+3) enables remediation of issue identified by the DLP tool, 
+4) is integrated with applicable Group solutions (such as AD, SIEM, security monitoring tools, SCCM), 
+5) have access control and adhere to Group's Identity and Access Management Standard, 
+6) does not compromise host security by partnering with respective technology owner during DLP implementation, 
+7) supports predefined DLP rules and configuration enforcement, 
+8) is documented (architecture, configuration, data flows, services provided).",Information Protection
+KC58,Data Leakage Prevention,DLP-006,"DLP-006: Ensure that any tools deployed to support DLP purposes: 
+1) actively control monitored hosts compliance status, 
+2) ensures coverage of hosts in scope of the DLP approach and strategy, 
+3) enables remediation of issue identified by the DLP tool, 
+4) is integrated with applicable Group solutions (such as AD, SIEM, security monitoring tools, SCCM), 
+5) have access control and adhere to Group's Identity and Access Management Standard, 
+6) does not compromise host security by partnering with respective technology owner during DLP implementation, 
+7) supports predefined DLP rules and configuration enforcement, 
+8) is documented (architecture, configuration, data flows, services provided).",Information Protection
+KC63,Data Leakage Prevention,"DLP-010b  ||
+
+DLP Standards – Appendix Section 7.2","DLP-010b: Ensure that the data protection approach and enforcement consider (where applicable): 1) identified and prioritised data loss vectors, as defined in the Strategy 2) asset exposure to DLP identified threats and risks, as per the Strategy, 3) sensitivity of the data in question as per its Confidentiality rating, 4) data content and data use context, 5) baseline requirements, as listed in Appendix – section 7.2 “Baseline DLP Requirements for Assets and Information”. 
+
+DLP Standards – Appendix Section 7.2: USB ports (or any such removal media interfaces) blocking by default on laptops, desktops, servers, workstations unless authorised for use by exception process. Initiation of semi-annual reviews of the user access granted to portable storage devices use.",Information Protection
+KC63,Data Leakage Prevention,"DLP-010b  ||
+
+DLP Standards – Appendix Section 7.2","DLP-010b: Ensure that the data protection approach and enforcement consider (where applicable): 1) identified and prioritised data loss vectors, as defined in the Strategy 2) asset exposure to DLP identified threats and risks, as per the Strategy, 3) sensitivity of the data in question as per its Confidentiality rating, 4) data content and data use context, 5) baseline requirements, as listed in Appendix – section 7.2 “Baseline DLP Requirements for Assets and Information”. 
+
+DLP Standards – Appendix Section 7.2: USB ports (or any such removal media interfaces) blocking by default on laptops, desktops, servers, workstations unless authorised for use by exception process. Initiation of semi-annual reviews of the user access granted to portable storage devices use.",Information Protection
+KC63,Data Leakage Prevention,"DLP-010b  ||
+
+DLP Standards – Appendix Section 7.2","DLP-010b: Ensure that the data protection approach and enforcement consider (where applicable): 1) identified and prioritised data loss vectors, as defined in the Strategy 2) asset exposure to DLP identified threats and risks, as per the Strategy, 3) sensitivity of the data in question as per its Confidentiality rating, 4) data content and data use context, 5) baseline requirements, as listed in Appendix – section 7.2 “Baseline DLP Requirements for Assets and Information”. 
+
+DLP Standards – Appendix Section 7.2: USB ports (or any such removal media interfaces) blocking by default on laptops, desktops, servers, workstations unless authorised for use by exception process. Initiation of semi-annual reviews of the user access granted to portable storage devices use.",Information Protection
+KC69b,Data Leakage Prevention,"DLP-270  || 
+DLP-271","DLP-270: Ensure the required configuration and operations (as shared by Process Owner) are deployed and maintained effectively for owned Technology Infrastructure to meet the DLP requirements. || 
+
+DLP-271: Oversee and maintain the compliance of the owned Technology Infrastructure with the DLP requirements (as defined and communicated by the Process Owner) by:
+1) regular review of DLP standard requirements pertaining to owned Technology Infrastructure and processed Information Asset(s),
+2) adopting and adhering to DLP solution as appropriately recommended by DLP Process Owner,
+3) continuously monitoring deployed DLP solutions to ensure that their effectiveness is not compromised due to technology or architecture changes,
+4) ensuring that data representation of processed Information Asset(s) processed, is onboarded to DLP solution (if required) to avoid potential data leakage,
+5) taking timely action and respond to DLP Process Owner when there is anomaly identified and reported,
+6) taking timely action, as requested by Process Owner, to ensure sensitive data is relocated or removed (when required).",Information Protection
+KC69b,Data Leakage Prevention,"DLP-270  || 
+DLP-271","DLP-270: Ensure the required configuration and operations (as shared by Process Owner) are deployed and maintained effectively for owned Technology Infrastructure to meet the DLP requirements. || 
+
+DLP-271: Oversee and maintain the compliance of the owned Technology Infrastructure with the DLP requirements (as defined and communicated by the Process Owner) by:
+1) regular review of DLP standard requirements pertaining to owned Technology Infrastructure and processed Information Asset(s),
+2) adopting and adhering to DLP solution as appropriately recommended by DLP Process Owner,
+3) continuously monitoring deployed DLP solutions to ensure that their effectiveness is not compromised due to technology or architecture changes,
+4) ensuring that data representation of processed Information Asset(s) processed, is onboarded to DLP solution (if required) to avoid potential data leakage,
+5) taking timely action and respond to DLP Process Owner when there is anomaly identified and reported,
+6) taking timely action, as requested by Process Owner, to ensure sensitive data is relocated or removed (when required).",Information Protection
+KC10a,Information Security Awareness and Training,"ISA-011  || 
+ISA-041  || 
+ISA-091  || 
+ISA-151  || 
+ISA-161  || 
+ISA-171 ","ISA-011: Design and develop, an annual ongoing ICS awareness programme that focusses Staff, Non-Employed Workers, customers, Third Parties and other agreed key groups’ attention on recognising ICS concerns and respond according to the latest ICS risks, policies and standards  ||
+
+ISA-041: Design and develop an annual ICS training programme that develops and tests knowledge of ICS risks, policies and standards for all Staff and Non-Employed Workers who have access to the Group’s Information Systems  ||
+
+ISA-091: Design and develop an annual ICS training programme that develops and tests specific role-based knowledge of ICS risks, policies and standards for Staff and Non-Employed Workers who may have access to or could impact critical Bank information assets and other agreed key groups  ||
+
+ISA-151: Review and update when necessary the Group's ICS awareness programme at least on an annual basis to maintain alignment with: ICS applicable legal, statutory, or regulatory compliance obligations, policies, and standards  ||
+
+ISA-161: Review and update when necessary the Group's ICS training programme at least on an annual basis to maintain alignment with: ICS applicable legal, statutory, or regulatory compliance obligations, policies, and standards  ||
+ 
+ISA-171: Review and update when necessary the Group's ICS targeted training programme at least on an annual basis to maintain alignment with: ICS applicable legal, statutory, or regulatory compliance obligations, policies, and standards",Security Awareness and Training
+KC10b,Information Security Awareness and Training,"ISA-011  || 
+ISA-041  || 
+ISA-091  || 
+ISA-151  || 
+ISA-161  || 
+ISA-171 ","ISA-011: Design and develop, an annual ongoing ICS awareness programme that focusses Staff, Non-Employed Workers, customers, Third Parties and other agreed key groups’ attention on recognising ICS concerns and respond according to the latest ICS risks, policies and standards  ||
+
+ISA-041: Design and develop an annual ICS training programme that develops and tests knowledge of ICS risks, policies and standards for all Staff and Non-Employed Workers who have access to the Group’s Information Systems  ||
+
+ISA-091: Design and develop an annual ICS training programme that develops and tests specific role-based knowledge of ICS risks, policies and standards for Staff and Non-Employed Workers who may have access to or could impact critical Bank information assets and other agreed key groups  ||
+
+ISA-151: Review and update when necessary the Group's ICS awareness programme at least on an annual basis to maintain alignment with: ICS applicable legal, statutory, or regulatory compliance obligations, policies, and standards  ||
+
+ISA-161: Review and update when necessary the Group's ICS training programme at least on an annual basis to maintain alignment with: ICS applicable legal, statutory, or regulatory compliance obligations, policies, and standards  ||
+ 
+ISA-171: Review and update when necessary the Group's ICS targeted training programme at least on an annual basis to maintain alignment with: ICS applicable legal, statutory, or regulatory compliance obligations, policies, and standards",Security Awareness and Training
+KC12a,Information Security Awareness and Training,"ISA-031  || 
+ISA-061  || 
+ISA-111","ISA-031: Deliver an annual ongoing ICS awareness programme that focusses Staff, Non-Employed Workers, customers, Third Parties and other agreed key groups’ attention on recognising ICS concerns and respond according to the latest ICS risks, policies and standards  ||
+
+ISA-061: Deliver an annual ICS training programme that develops and tests knowledge of ICS risks, policies and standards for all Staff and Non-Employed Workers who have access to the Group’s Information Systems  ||
+
+ISA-111: Deliver an annual ICS training programme that develops and tests specific role-based knowledge of ICS risks, policies and standards for Staff and Non-Employed Workers who may have access to or could impact critical Bank information assets and other agreed key groups",Security Awareness and Training
+KC12a,Information Security Awareness and Training,"ISA-031  || 
+ISA-061  || 
+ISA-111","ISA-031: Deliver an annual ongoing ICS awareness programme that focusses Staff, Non-Employed Workers, customers, Third Parties and other agreed key groups’ attention on recognising ICS concerns and respond according to the latest ICS risks, policies and standards  ||
+
+ISA-061: Deliver an annual ICS training programme that develops and tests knowledge of ICS risks, policies and standards for all Staff and Non-Employed Workers who have access to the Group’s Information Systems  ||
+
+ISA-111: Deliver an annual ICS training programme that develops and tests specific role-based knowledge of ICS risks, policies and standards for Staff and Non-Employed Workers who may have access to or could impact critical Bank information assets and other agreed key groups",Security Awareness and Training
+KC12a,Information Security Awareness and Training,"ISA-031  || 
+ISA-061  || 
+ISA-111","ISA-031: Deliver an annual ongoing ICS awareness programme that focusses Staff, Non-Employed Workers, customers, Third Parties and other agreed key groups’ attention on recognising ICS concerns and respond according to the latest ICS risks, policies and standards  ||
+
+ISA-061: Deliver an annual ICS training programme that develops and tests knowledge of ICS risks, policies and standards for all Staff and Non-Employed Workers who have access to the Group’s Information Systems  ||
+
+ISA-111: Deliver an annual ICS training programme that develops and tests specific role-based knowledge of ICS risks, policies and standards for Staff and Non-Employed Workers who may have access to or could impact critical Bank information assets and other agreed key groups",Security Awareness and Training
+KC12b,Information Security Awareness and Training,"ISA-181  || 
+ISA-191  || 
+ISA-201","ISA-181: Measure the Group’s ICS awareness programme on a regular basis to ensure the controls are effective and the programme is achieving its desired outcome of improving the cyber security culture of the Group  ||
+
+ISA-191: Measure the Group's ICS training programme on a regular basis to ensure the controls are effective and the programme is achieving its desired outcome of improving the cyber security culture of the Group  ||
+
+ISA-201: Measure the Group's ICS targeted training programme on a regular basis to ensure the controls are effective and the programme is achieving its desired outcome of improving the cyber security culture of the Group",Security Awareness and Training
+KC85,Network Security Management,NSM-150,NSM-150: Review weekly all IDS/IPS devices and IDS/IPS software to check if signatures have been updated timely and successfully.,Network Security Management
+KC53,Security Incident Response and Management,"SIR-140  ||  
+
+SIR-150","There seems no particular Standard requirements which covers the actual  'Containment' process. A potential Standard requirement could be: ""Ensure a processes is in place for containment, remediation and recovery for security incidents.  || 
+
+SIR-140: Co-ordinate with the Head of Information and Cyber Security [HICS], Information Security Risk Officer [ISRO] and the key stakeholders as per the Cyber Security Incident Response process for remedial actions where a breach of Information security is suspected or confirmed.  [Reference:  Table: Remedial Actions]  ||  
+
+SIR-150: Engage with external providers when support is needed with investigation and containment of incident.",Security Incident Management
+KC53,Security Incident Response and Management,"SIR-140  ||  
+
+SIR-150","There seems no particular Standard requirements which covers the actual  'Containment' process. A potential Standard requirement could be: ""Ensure a processes is in place for containment, remediation and recovery for security incidents.  || 
+
+SIR-140: Co-ordinate with the Head of Information and Cyber Security [HICS], Information Security Risk Officer [ISRO] and the key stakeholders as per the Cyber Security Incident Response process for remedial actions where a breach of Information security is suspected or confirmed.  [Reference:  Table: Remedial Actions]  ||  
+
+SIR-150: Engage with external providers when support is needed with investigation and containment of incident.",Security Incident Management
+KC53,Security Incident Response and Management,"SIR-140  ||  
+
+SIR-150","There seems no particular Standard requirements which covers the actual  'Containment' process. A potential Standard requirement could be: ""Ensure a processes is in place for containment, remediation and recovery for security incidents.  || 
+
+SIR-140: Co-ordinate with the Head of Information and Cyber Security [HICS], Information Security Risk Officer [ISRO] and the key stakeholders as per the Cyber Security Incident Response process for remedial actions where a breach of Information security is suspected or confirmed.  [Reference:  Table: Remedial Actions]  ||  
+
+SIR-150: Engage with external providers when support is needed with investigation and containment of incident.",Security Incident Management
+KC52,Security Incident Response and Management,SIR-030,"SIR-030: Ensure that the SIRM process at a minimum covers the following components:The steps required to handle security events and incidents, that is, Identification, Classification, Categorisation and Prioritisation, Investigation and Diagnosis, Resolution and Recovery of incidents along with resolution time lines;Specific tools and Information needed to support the management of incidents;Types of security events to be logged / recorded in line with Security Logging and Monitoring Standard;Roles and responsibilities for both individuals and teams/functions involved in security incident management;Escalation and reporting paths;Logging incident management activities;Methods for handling and storing forensic evidence (chain of custody);Internal and External Thresholds for Incident response time; and Approval of communication with external agencies including regulators.[Reference: ICS Security Logging and Monitoring Standard]",Security Incident Management
+KC53,Security Incident Response and Management,"SIR-140  ||  
+
+SIR-150","There seems no particular Standard requirements which covers the actual  'Containment' process. A potential Standard requirement could be: ""Ensure a processes is in place for containment, remediation and recovery for security incidents.  || 
+
+SIR-140: Co-ordinate with the Head of Information and Cyber Security [HICS], Information Security Risk Officer [ISRO] and the key stakeholders as per the Cyber Security Incident Response process for remedial actions where a breach of Information security is suspected or confirmed.  [Reference:  Table: Remedial Actions]  ||  
+
+SIR-150: Engage with external providers when support is needed with investigation and containment of incident.",Security Incident Management
+KC66,Data Leakage Prevention,DLP-007b,"DLP-007b: Ensure that DLP process is aligned with and supports Incident Management and Response processes, i.e.: 
+1) any events or incidents identified in the DLP area are reported and handled in a timely manner, 
+2) applicable reference/supporting information is provided to support incident verification and analysis.",Information Protection
+KC0,Information Classification ,"INC-010  || 
+INC-020  || 
+INC-050  || 
+INC-060  || 
+INC-070 
+","INC-010: Identify all Information Assets, aligned where possible to sub-domains of the Data Quality Management Framework [DQMF], and owned by Business Function. [Reference: Defining Information Assets for Standard Chartered Methodology]  ||
+INC-020: Assign an Information Asset Owner to each Information Asset.  ||
+INC-050: Rate owned Information Assets for loss of Confidentiality, Integrity and Availability based on evaluated impact. [Reference: INC-040]  ||
+INC-060: Record all Information Assets (including all mandatory details) in Group owned Information Asset Register.  ||
+INC-070: Review that all mandatory details and CIA ratings of all owned Information Assets, recorded in Group owned Information Asset Register, are up to date. [Reference: Defining Information Assets for Standard Chartered] 
+",Secure Asset Management
+KC0,Information Classification ,"INC-010  || 
+INC-020  || 
+INC-050  || 
+INC-060  || 
+INC-070 
+","INC-010: Identify all Information Assets, aligned where possible to sub-domains of the Data Quality Management Framework [DQMF], and owned by Business Function. [Reference: Defining Information Assets for Standard Chartered Methodology]  ||
+INC-020: Assign an Information Asset Owner to each Information Asset.  ||
+INC-050: Rate owned Information Assets for loss of Confidentiality, Integrity and Availability based on evaluated impact. [Reference: INC-040]  ||
+INC-060: Record all Information Assets (including all mandatory details) in Group owned Information Asset Register.  ||
+INC-070: Review that all mandatory details and CIA ratings of all owned Information Assets, recorded in Group owned Information Asset Register, are up to date. [Reference: Defining Information Assets for Standard Chartered] 
+",Secure Asset Management
+KC1b,"Information Classification    ||
+Secure Asset Management
+ ","INC-110  || 
+SAM-100   || 
+SAM-130","INC-110: Review the identification of Information Systems on an annual basis.  ||
+SAM-100: Ensure that the Information Systems supporting owned Processed are identified, with ownership assigned. || 
+SAM-130: Maintain the completeness and accuracy of the Inventory records for owned Technology Asset by:registering owned Assets,ensuring that the Inventory records for the owned Assets are accurate and up to date and retain required level of details, as determined by the [Technology Asset Management] Process Ownerreporting to [Technology Asset Management] Process Owner Asset changes, applicable incidents, and issues, in line with operational requirements and approach predefined on Process level.",Secure Asset Management
+KC86,Network Security Management,NSM-630,"NSM-630: Ensure that only uniquely identified and authorized devices can access Group's network. Note: this is to prevent for example connections to Group's network through rogue access points, both wire and wireless.",Network Security Management
+KC12b,Information Security Awareness and Training,"ISA-181 
+","ISA-181 Measure the Group’s ICS awareness programme on a regular basis to ensure the controls are effective and the programme is achieving its desired outcome of improving the cyber security culture of the Group
+
+",Security Awareness and Training
+KC12b,Information Security Awareness and Training,"ISA-181 
+","ISA-181 Measure the Group’s ICS awareness programme on a regular basis to ensure the controls are effective and the programme is achieving its desired outcome of improving the cyber security culture of the Group
+
+",Security Awareness and Training
+KC104a,Security Patch Management,SPM-220                  ,SPM-220: Deploy Security Patches on Production and Non-Production Environments in line with Appendix 6.2 Patch Remediation by Vulnerability Criticality and Asset Classification (all in Calendar Days). ,System Lifecycle Security (incl. Vulnerability Management)
+KC104a,Security Patch Management,SPM-220                  ,SPM-220: Deploy Security Patches on Production and Non-Production Environments in line with Appendix 6.2 Patch Remediation by Vulnerability Criticality and Asset Classification (all in Calendar Days). ,System Lifecycle Security (incl. Vulnerability Management)
+KC104c,Security Patch Management,SPM-220                  ,SPM-220: Deploy Security Patches on Production and Non-Production Environments in line with Appendix 6.2 Patch Remediation by Vulnerability Criticality and Asset Classification (all in Calendar Days). ,System Lifecycle Security (incl. Vulnerability Management)
+KC104c,Security Patch Management,SPM-220                  ,SPM-220: Deploy Security Patches on Production and Non-Production Environments in line with Appendix 6.2 Patch Remediation by Vulnerability Criticality and Asset Classification (all in Calendar Days). ,System Lifecycle Security (incl. Vulnerability Management)
+KC41a,Security Incident Response and Management,"SIR-020  ||  
+
+SIR-030
+
+
+
+
+
+
+
+
+
+","SIR-020: Ensure that an SIRM process is formally documented, approved and implemented.  ||  
+
+SIR-030: Ensure that the SIRM process at a minimum covers the following components:The steps required to handle security events and incidents, that is, Identification, Classification, Categorisation and Prioritisation, Investigation and Diagnosis, Resolution and Recovery of incidents along with resolution time lines;Specific tools and Information needed to support the management of incidents;Types of security events to be logged / recorded in line with Security Logging and Monitoring Standard;Roles and responsibilities for both individuals and teams/functions involved in security incident management;Escalation and reporting paths;Logging incident management activities;Methods for handling and storing forensic evidence (chain of custody);Internal and External Thresholds for Incident response time; and Approval of communication with external agencies including regulators.[Reference: ICS Security Logging and Monitoring Standard]",Security Incident Management
+KC82b,Vulnerability Identification and Management,VIAM-230,"VIAM-230: Establish a documented process with the scope, requirements, tools, meeting assessment frequencies and remediation timelines (to ensure vulnerabilities are fully remediated) for periodic Security Configuration Validation of Information Systems and Technology Infrastructure against the approved security standards.[Reference: Information Security Standards, Technical Information Security Standards, Appendix: Table 1 - Vulnerability Identification Frequency, Table 2 – Vulnerabilities Classification and Remediation]",Network Security Management
+KC51,Security Incident Response and Management,SIR-020,"There seems no particular Standard requirements which covers the actual ""Testing"" process. A potential Standard requirement could be: ""Ensure the SIRM processes is tested on a regular basis.  ||  
+
+SIR-020: Ensure that an SIRM process is formally documented, approved and implemented.",Security Incident Management
+KC80,Security Logging and Monitoring,"SLM-009 (a) + (b)  ||  
+SLM-090  ||  
+SLM-230","SLM-009: Provide operational capability for security event logging processing by: 
+a) Ensuring logs are received form the IT Assets in scope in a timely manner; 
+b) The logs received are complete and protected from alteration and disclose; 
+c) Required retention is ensured and logs are destroyed securely when no longer required; 
+d) Identification of data quality problems or Information gaps and reporting them to responsible stakeholders; 
+e) Defining and conducting response actions to issues identified.  ||  
+
+SLM-090: Ensure the security event logs are received, processed securely and available in the Groups central log repository for Information Systems and Technology Infrastructure in scope of central log storage.  ||  
+SLM-230: Ensure security event logs from all systems and infrastructure in scope of central log storage are received by the monitoring resources near real-time monitoring.Note: Real-time monitoring and alerting capabilities must be enabled to provide visibility of the usage and performance of Application Program Interfaces [API] and detect suspicious activities.",Security Logging and Monitoring
+KC80,Security Logging and Monitoring,"SLM-009 (a) + (b)  ||  
+SLM-090  ||  
+SLM-230","SLM-009: Provide operational capability for security event logging processing by: 
+a) Ensuring logs are received form the IT Assets in scope in a timely manner; 
+b) The logs received are complete and protected from alteration and disclose; 
+c) Required retention is ensured and logs are destroyed securely when no longer required; 
+d) Identification of data quality problems or Information gaps and reporting them to responsible stakeholders; 
+e) Defining and conducting response actions to issues identified.  ||  
+
+SLM-090: Ensure the security event logs are received, processed securely and available in the Groups central log repository for Information Systems and Technology Infrastructure in scope of central log storage.  ||  
+SLM-230: Ensure security event logs from all systems and infrastructure in scope of central log storage are received by the monitoring resources near real-time monitoring.Note: Real-time monitoring and alerting capabilities must be enabled to provide visibility of the usage and performance of Application Program Interfaces [API] and detect suspicious activities.",Security Logging and Monitoring
+KC53,Security Incident Response and Management,SIR-170,SIR-170: Ensure the post incident review includes the following: The root causes are accurately identified;The response process followed the established process;The incident evidence has been maintained appropriately in line with legal and group retention requirements;The incident was resolved in a timely and efficient manner;Appropriate preventive or corrective steps were taken;Advise on approach to detect similar incidents in the future is documented and communicated and Lessons learnt are communicated and incorporated to prevent future incidents.Note: Consult Legal regarding the terms of reference of review as well as the format and distribution of security incident report which are rated high and critical.,Security Incident Management
+KC66,Data Leakage Prevention,DLP-007b,"DLP-007b: Ensure that DLP process is aligned with and supports Incident Management and Response processes, i.e.: 
+1) any events or incidents identified in the DLP area are reported and handled in a timely manner, 
+2) applicable reference/supporting information is provided to support incident verification and analysis.",Information Protection
+KC73,Cryptography,CRY-010,"CRY-010 - To ensure the Confidentiality, Integrity, Authentication and Non-repudiation, only Group approved cryptographic algorithms must be used in Information Systems. Usage of cryptographic algorithms must comply with legal and regulatory related encryption requirements. Note: As defined in Appendix 7.1 “Table 1 – Group Approved Cryptography Algorithms”[Reference: Appendix 7.1 “Table 1 – Group Approved Cryptography Algorithms”, Appendix 7.2 “Table 2 – Advantages of Cryptography”]",Information Protection
+KC63,Data Leakage Prevention,"DLP-010b  ||
+
+DLP Standards – Appendix Section 7.2","DLP-010b: Ensure that the data protection approach and enforcement consider (where applicable): 1) identified and prioritised data loss vectors, as defined in the Strategy 2) asset exposure to DLP identified threats and risks, as per the Strategy, 3) sensitivity of the data in question as per its Confidentiality rating, 4) data content and data use context, 5) baseline requirements, as listed in Appendix – section 7.2 “Baseline DLP Requirements for Assets and Information”. 
+
+DLP Standards – Appendix Section 7.2: USB ports (or any such removal media interfaces) blocking by default on laptops, desktops, servers, workstations unless authorised for use by exception process. Initiation of semi-annual reviews of the user access granted to portable storage devices use.",Information Protection
+KC81,Network Security Management,NSM-300,NSM-300: Implement controls to segregate and restrict connectivity between networks containing Information Systems that are supporting defined business processes up to and including Line of Business and Sub Line of Business. Note: A segment may contain multiple Information Systems of different S-BIA rating to minimise the need for cross segment traffic flows.Note: Production and Non-Production Environments should also be in separate segments.Note: By minimum all Information Systems impact rated as 5 need to be put in a network segment.,Network Security Management
+KC94,Web Filtering,WF-030,WF-030: Ensure a dedicated web filtering solution must be used to control access to websites and file types based on categories and contents in Production and non-Production.,Secure Configuration Management
+KC94,Web Filtering,WF-030,WF-030: Ensure a dedicated web filtering solution must be used to control access to websites and file types based on categories and contents in Production and non-Production.,Secure Configuration Management
+KC94,Web Filtering,WF-080,"WF-080: Ensure the recertification of user’s exception access to web categories or websites occurs once every 6 months. 
+Note: The users must be notified a minimum of 4 weeks before expiry of exception access. Access must be revoked in case of no request from user on expiry date.",Secure Configuration Management
+KC69,"Data Leakage Prevention  ||
+Mobile Device Security Standard","DLP-010a  || 
+DLP-010b  || 
+DLP-270  || 
+DLP-271  || 
+MDS-110","DLP-010a: Define and enforce (where applicable and technically feasible) DLP policies and data
+protection mechanisms to proactively prevent sensitive data from leaving the Group’s IT
+environment.
+Note: Enforcement of the data protection may be executed as centrally enforced
+configuration policy (such as AD GPO, dedicated agent delivered, etc.) or by defining and
+publishing configuration guidelines for specific technologies or platforms, to be then
+implemented by accountable stakeholders.
+[Reference: DLP-270]  ||
+DLP-010b: Ensure that the data protection approach and enforcement consider (where applicable):
+1) identified and prioritised data loss vectors, as defined in the Strategy
+2) asset exposure to DLP identified threats and risks, as per the Strategy,
+3) sensitivity of the data in question as per its Confidentiality rating,
+4) data content and data use context,
+5) baseline requirements, as listed in Appendix – section 7.2 “Baseline DLP
+Requirements for Assets and Information”.
+Note: Data protection policies can be delivered as enforced IT Asset configuration (for
+example through dedicated DLP agent) or pre-defined configuration guidelines,
+mandatory for implementation. This is applicable to data at rest, in motion and in use.
+Data protection does not only limit to automatic mechanisms deployed to IT assets, but
+also covers Group level rules and guidelines enforcement, such as printing policy, email
+use policy, etc.
+DLP-270: Ensure the required configuration and operations (as shared by Process Owner) are
+deployed and maintained effectively for owned Technology Infrastructure to meet the
+DLP requirements.  ||
+DLP-271: Oversee and maintain the compliance of the owned Technology Infrastructure with the
+DLP requirements (as defined and communicated by the Process Owner) by:
+1) regular review of DLP standard requirements pertaining to owned Technology
+Infrastructure and processed Information Asset(s),
+2) adopting and adhering to DLP solution as appropriately recommended by DLP
+Process Owner,
+3) continuously monitoring deployed DLP solutions to ensure that their
+effectiveness is not compromised due to technology or architecture changes,
+4) ensuring that data representation of processed Information Asset(s) processed,
+is onboarded to DLP solution (if required) to avoid potential data leakage,
+5) taking timely action and respond to DLP Process Owner when there is anomaly
+identified and reported,
+6) taking timely action, as requested by Process Owner, to ensure sensitive data is
+relocated or removed (when required)
+DLP - Annex 7.2-Baseline DLP Requirements for Assets and Information.
+IT Assets - Full disk encryption on Group issued or Group approved Mobile Devices and portable storage devices, in line with Information Handling Standard.   ||
+MDS-110: Ensure that Laptops protect the Confidentiality of stored Information by: Deploying file-based encryption software to safeguard files and folders by the user when required; Being centrally managed [unless specific approval is obtained]; Ensuring they are configured for software and firmware automatic updates from the Group’s approved software and firmware update repository (this includes for example version updates but not Security Patches which are addressed in Vulnerability Identification and Management Standard); Disabling the auto-run feature. [Reference Information Handling Standard, Information Classification Standard, Cryptography Standard, Identity and Access Management Standard, Secure Configuration Management Standard, Data Leakage Prevention Standard, Vulnerability Identification and Management Standard] ",Information Protection
+KC69,"Data Leakage Prevention  ||
+Mobile Device Security Standard","DLP-010a  || 
+DLP-010b  || 
+DLP-270  || 
+DLP-271  || 
+MDS-110","DLP-010a: Define and enforce (where applicable and technically feasible) DLP policies and data
+protection mechanisms to proactively prevent sensitive data from leaving the Group’s IT
+environment.
+Note: Enforcement of the data protection may be executed as centrally enforced
+configuration policy (such as AD GPO, dedicated agent delivered, etc.) or by defining and
+publishing configuration guidelines for specific technologies or platforms, to be then
+implemented by accountable stakeholders.
+[Reference: DLP-270]  ||
+DLP-010b: Ensure that the data protection approach and enforcement consider (where applicable):
+1) identified and prioritised data loss vectors, as defined in the Strategy
+2) asset exposure to DLP identified threats and risks, as per the Strategy,
+3) sensitivity of the data in question as per its Confidentiality rating,
+4) data content and data use context,
+5) baseline requirements, as listed in Appendix – section 7.2 “Baseline DLP
+Requirements for Assets and Information”.
+Note: Data protection policies can be delivered as enforced IT Asset configuration (for
+example through dedicated DLP agent) or pre-defined configuration guidelines,
+mandatory for implementation. This is applicable to data at rest, in motion and in use.
+Data protection does not only limit to automatic mechanisms deployed to IT assets, but
+also covers Group level rules and guidelines enforcement, such as printing policy, email
+use policy, etc.
+DLP-270: Ensure the required configuration and operations (as shared by Process Owner) are
+deployed and maintained effectively for owned Technology Infrastructure to meet the
+DLP requirements.  ||
+DLP-271: Oversee and maintain the compliance of the owned Technology Infrastructure with the
+DLP requirements (as defined and communicated by the Process Owner) by:
+1) regular review of DLP standard requirements pertaining to owned Technology
+Infrastructure and processed Information Asset(s),
+2) adopting and adhering to DLP solution as appropriately recommended by DLP
+Process Owner,
+3) continuously monitoring deployed DLP solutions to ensure that their
+effectiveness is not compromised due to technology or architecture changes,
+4) ensuring that data representation of processed Information Asset(s) processed,
+is onboarded to DLP solution (if required) to avoid potential data leakage,
+5) taking timely action and respond to DLP Process Owner when there is anomaly
+identified and reported,
+6) taking timely action, as requested by Process Owner, to ensure sensitive data is
+relocated or removed (when required)
+DLP - Annex 7.2-Baseline DLP Requirements for Assets and Information.
+IT Assets - Full disk encryption on Group issued or Group approved Mobile Devices and portable storage devices, in line with Information Handling Standard.   ||
+MDS-110: Ensure that Laptops protect the Confidentiality of stored Information by: Deploying file-based encryption software to safeguard files and folders by the user when required; Being centrally managed [unless specific approval is obtained]; Ensuring they are configured for software and firmware automatic updates from the Group’s approved software and firmware update repository (this includes for example version updates but not Security Patches which are addressed in Vulnerability Identification and Management Standard); Disabling the auto-run feature. [Reference Information Handling Standard, Information Classification Standard, Cryptography Standard, Identity and Access Management Standard, Secure Configuration Management Standard, Data Leakage Prevention Standard, Vulnerability Identification and Management Standard] ",Information Protection
+KC122r,Vulnerability Identification and Management,VIAM-370                  ,"VIAM-370: Document, track and implement remediation actions with agreed timelines for identified vulnerabilities or security configuration gaps. If the remediation timeline is in breach with the timeline defined in Appendix: Table 2 – Vulnerabilities Classification and Remediation, then a relevant valid risk treatment must be documented and tracked.",System Lifecycle Security (incl. Vulnerability Management)
+KC122r,Vulnerability Identification and Management,VIAM-370                  ,"VIAM-370: Document, track and implement remediation actions with agreed timelines for identified vulnerabilities or security configuration gaps. If the remediation timeline is in breach with the timeline defined in Appendix: Table 2 – Vulnerabilities Classification and Remediation, then a relevant valid risk treatment must be documented and tracked.",System Lifecycle Security (incl. Vulnerability Management)
+KC122h,Vulnerability Identification and Management,VIAM-370                  ,"VIAM-370: Document, track and implement remediation actions with agreed timelines for identified vulnerabilities or security configuration gaps. If the remediation timeline is in breach with the timeline defined in Appendix: Table 2 – Vulnerabilities Classification and Remediation, then a relevant valid risk treatment must be documented and tracked.",System Lifecycle Security (incl. Vulnerability Management)
+KC122h,Vulnerability Identification and Management,VIAM-370                  ,"VIAM-370: Document, track and implement remediation actions with agreed timelines for identified vulnerabilities or security configuration gaps. If the remediation timeline is in breach with the timeline defined in Appendix: Table 2 – Vulnerabilities Classification and Remediation, then a relevant valid risk treatment must be documented and tracked.",System Lifecycle Security (incl. Vulnerability Management)
+KC122j,Vulnerability Identification and Management,VIAM-370                  ,"VIAM-370: Document, track and implement remediation actions with agreed timelines for identified vulnerabilities or security configuration gaps. If the remediation timeline is in breach with the timeline defined in Appendix: Table 2 – Vulnerabilities Classification and Remediation, then a relevant valid risk treatment must be documented and tracked.",System Lifecycle Security (incl. Vulnerability Management)
+KC122j,Vulnerability Identification and Management,VIAM-370                  ,"VIAM-370: Document, track and implement remediation actions with agreed timelines for identified vulnerabilities or security configuration gaps. If the remediation timeline is in breach with the timeline defined in Appendix: Table 2 – Vulnerabilities Classification and Remediation, then a relevant valid risk treatment must be documented and tracked.",System Lifecycle Security (incl. Vulnerability Management)
+KC113a,Vulnerability Identification and Management,VIAM-370                  ,"VIAM-370: Document, track and implement remediation actions with agreed timelines for identified vulnerabilities or security configuration gaps. If the remediation timeline is in breach with the timeline defined in Appendix: Table 2 – Vulnerabilities Classification and Remediation, then a relevant valid risk treatment must be documented and tracked.",System Lifecycle Security (incl. Vulnerability Management)
+KC113a,Vulnerability Identification and Management,VIAM-370                  ,"VIAM-370: Document, track and implement remediation actions with agreed timelines for identified vulnerabilities or security configuration gaps. If the remediation timeline is in breach with the timeline defined in Appendix: Table 2 – Vulnerabilities Classification and Remediation, then a relevant valid risk treatment must be documented and tracked.",System Lifecycle Security (incl. Vulnerability Management)
+KC113a,Vulnerability Identification and Management,VIAM-370                  ,"VIAM-370: Document, track and implement remediation actions with agreed timelines for identified vulnerabilities or security configuration gaps. If the remediation timeline is in breach with the timeline defined in Appendix: Table 2 – Vulnerabilities Classification and Remediation, then a relevant valid risk treatment must be documented and tracked.",System Lifecycle Security (incl. Vulnerability Management)
+KC113b,Vulnerability Identification and Management,VIAM-370                  ,"VIAM-370: Document, track and implement remediation actions with agreed timelines for identified vulnerabilities or security configuration gaps. If the remediation timeline is in breach with the timeline defined in Appendix: Table 2 – Vulnerabilities Classification and Remediation, then a relevant valid risk treatment must be documented and tracked.",System Lifecycle Security (incl. Vulnerability Management)
+KC113b,Vulnerability Identification and Management,VIAM-370                  ,"VIAM-370: Document, track and implement remediation actions with agreed timelines for identified vulnerabilities or security configuration gaps. If the remediation timeline is in breach with the timeline defined in Appendix: Table 2 – Vulnerabilities Classification and Remediation, then a relevant valid risk treatment must be documented and tracked.",System Lifecycle Security (incl. Vulnerability Management)
+KC113b,Vulnerability Identification and Management,VIAM-370                  ,"VIAM-370: Document, track and implement remediation actions with agreed timelines for identified vulnerabilities or security configuration gaps. If the remediation timeline is in breach with the timeline defined in Appendix: Table 2 – Vulnerabilities Classification and Remediation, then a relevant valid risk treatment must be documented and tracked.",System Lifecycle Security (incl. Vulnerability Management)
+KC113b,Vulnerability Identification and Management,VIAM-370                  ,"VIAM-370: Document, track and implement remediation actions with agreed timelines for identified vulnerabilities or security configuration gaps. If the remediation timeline is in breach with the timeline defined in Appendix: Table 2 – Vulnerabilities Classification and Remediation, then a relevant valid risk treatment must be documented and tracked.",System Lifecycle Security (incl. Vulnerability Management)
+KC41c,"Business Continuity
+Management Standard",BCM-2.3,"2.3: TESTING & MAINTENANCE 
+This stage of the process ensures that BCPs are tested and maintained to ensure they remain valid once established.",Security Incident Management
+KC53,Security Logging and Monitoring,SLM-240,SLM-240: Ensure the security event logs and reports are examined in a timely manner appropriate to the criticality of the events and alerts received from the monitoring solution.[Reference: Security Incident and Response Management Standard],Security Incident Management
+KC63,Data Leakage Prevention,"DLP-010b  ||
+
+DLP Standards – Appendix Section 7.2","DLP-010b: Ensure that the data protection approach and enforcement consider (where applicable): 1) identified and prioritised data loss vectors, as defined in the Strategy 2) asset exposure to DLP identified threats and risks, as per the Strategy, 3) sensitivity of the data in question as per its Confidentiality rating, 4) data content and data use context, 5) baseline requirements, as listed in Appendix – section 7.2 “Baseline DLP Requirements for Assets and Information”. 
+
+DLP Standards – Appendix Section 7.2: USB ports (or any such removal media interfaces) blocking by default on laptops, desktops, servers, workstations unless authorised for use by exception process. Initiation of semi-annual reviews of the user access granted to portable storage devices use.",Information Protection
+B-IP-DCM-CO1,Digital Certificate Management,CRY-030,"CRY-030: Ensure that cryptographic keys are stored, at the minimum, in FIPS 140-2 level 2 validated key vault ",Information Protection
+KC2,Information Classification ,"INC-130
+",INC-130: Rate Information Systems through employment of the Group S-BIA methodology. Note: Technology Infrastructure should be S-BIA rated in line with requirements defined in referenced Methodology.[Reference: Security Business Impact Assessment (S-BIA) Methodology],Secure Asset Management
+KC114,Applications Security,AS-430,AS-430: The SIA process is based on ICS control AS 430 'Complete all security testing as per the Group’s System Delivery Framework [“SDF”] model'.,System Lifecycle Security (incl. Vulnerability Management)
+KC114,Applications Security,AS-430,AS-430: The SIA process is based on ICS control AS 430 'Complete all security testing as per the Group’s System Delivery Framework [“SDF”] model'.,System Lifecycle Security (incl. Vulnerability Management)
+KC114,Applications Security,AS-430,AS-430: The SIA process is based on ICS control AS 430 'Complete all security testing as per the Group’s System Delivery Framework [“SDF”] model'.,System Lifecycle Security (incl. Vulnerability Management)
+KC114,Applications Security,AS-430,AS-430: The SIA process is based on ICS control AS 430 'Complete all security testing as per the Group’s System Delivery Framework [“SDF”] model'.,System Lifecycle Security (incl. Vulnerability Management)
+KC114,Applications Security,AS-430,AS-430: The SIA process is based on ICS control AS 430 'Complete all security testing as per the Group’s System Delivery Framework [“SDF”] model'.,System Lifecycle Security (incl. Vulnerability Management)
+KC82,"Network Security Management  ||  
+
+Applications Security","NSM-520  ||
+
+AS-060
+Note: Only points a) e) & g) are applicable","NSM-520: Use Web Application Firewalls [WAF] to protect HTTP and HTTPS conversation during web access to Internet-facing Information Systems.[Reference: NSM-515]  ||
+
+AS-060: Enable Applications with the following protection measures:   
+a) Spoofing Protection; e) Denial of Service/Distributed Denial of Service [DoS/DDoS] Protection; g) Key threats
+Note: Only points a) e) & g) are applicable",Network Security Management
+KC82,"Network Security Management  ||  
+
+Applications Security","NSM-520  ||
+
+AS-060
+Note: Only points a) e) & g) are applicable","NSM-520: Use Web Application Firewalls [WAF] to protect HTTP and HTTPS conversation during web access to Internet-facing Information Systems.[Reference: NSM-515]  ||
+
+AS-060: Enable Applications with the following protection measures:   
+a) Spoofing Protection; e) Denial of Service/Distributed Denial of Service [DoS/DDoS] Protection; g) Key threats
+Note: Only points a) e) & g) are applicable",Network Security Management
+KC95,Security Logging and Monitoring,SLM-009 (a),"SLM-009: Provide operational capability for security event logging processing by: 
+a) Ensuring logs are received form the IT Assets in scope in a timely manner; 
+b) The logs received are complete and protected from alteration and disclose; 
+c) Required retention is ensured and logs are destroyed securely when no longer required; 
+d) Identification of data quality problems or Information gaps and reporting them to responsible stakeholders; 
+e) Defining and conducting response actions to issues identified.",Security Logging and Monitoring
+KC95,Security Logging and Monitoring,SLM-009 (a),"SLM-009: Provide operational capability for security event logging processing by: 
+a) Ensuring logs are received form the IT Assets in scope in a timely manner; 
+b) The logs received are complete and protected from alteration and disclose; 
+c) Required retention is ensured and logs are destroyed securely when no longer required; 
+d) Identification of data quality problems or Information gaps and reporting them to responsible stakeholders; 
+e) Defining and conducting response actions to issues identified.",Security Logging and Monitoring
+KC133,Security Logging and Monitoring,SLM-009 (a),"SLM-009: Provide operational capability for security event logging processing by: 
+a) Ensuring logs are received form the IT Assets in scope in a timely manner; 
+b) The logs received are complete and protected from alteration and disclose; 
+c) Required retention is ensured and logs are destroyed securely when no longer required; 
+d) Identification of data quality problems or Information gaps and reporting them to responsible stakeholders; 
+e) Defining and conducting response actions to issues identified.",Security Logging and Monitoring
+KC95,Security Logging and Monitoring,SLM-009 (a),"SLM-009: Provide operational capability for security event logging processing by: 
+a) Ensuring logs are received form the IT Assets in scope in a timely manner; 
+b) The logs received are complete and protected from alteration and disclose; 
+c) Required retention is ensured and logs are destroyed securely when no longer required; 
+d) Identification of data quality problems or Information gaps and reporting them to responsible stakeholders; 
+e) Defining and conducting response actions to issues identified.",Security Logging and Monitoring
+KC40b,Data Storage and Backup,"DSB-230  ||  
+DSB-330","DSB-230: Ensure Backups are scheduled for the Information Systems based on business criticality. At minimum for Information Systems S-BIA rated 3 to 5 all Information need to be backed up.
+||
+DSB-330: Ensure Backup and Restore of Information from Information Systems S-BIA rated 3 to 5 are tested annually and validated.",Secure Configuration Management
+KC40b,Data Storage and Backup,"DSB-230  ||  
+DSB-330","DSB-230: Ensure Backups are scheduled for the Information Systems based on business criticality. At minimum for Information Systems S-BIA rated 3 to 5 all Information need to be backed up.
+||
+DSB-330: Ensure Backup and Restore of Information from Information Systems S-BIA rated 3 to 5 are tested annually and validated.",Secure Configuration Management
+KC145,Secure Configuration Management,SCM-031,SCM-031: Devise mechanisms to logically apply and maintain security baseline configuration (as per minimum security baseline control requirements) on Information System and Technology Infrastructure.,Secure Configuration Management
+KC55b,Anti-Malware,"AM-008a (2) & (3) & (4)  ||
+
+AM-160","AM-008a: Ensure that any tools deployed to support AM purposes:
+1) is managed centrally so that policy enforcement and configuration is carried out centrally, including an automated malware definitions refresh,
+2) actively control monitored hosts compliance status (see section 7.2 “Review Frequency” for recommended frequency of the reviews/checks),
+3) ensures coverage of hosts in scope of the AM approach and strategy,
+4) enables remediation of issues identified by the AM tool (such as AM agent failures, signature accuracy, etc.),
+5) is integrated with applicable Group solutions (such as SIEM, security monitoring tools, SCCM),
+6) have access control and adhere to Group's Identity and Access Management Standard,
+7) is documented (architecture, configuration, data flows, services provided).
+[Reference: Security Logging and Monitoring Standard, Identity and Access Management Standard]
+Note: the AM tooling coverage –technical compatibility with Group approved product and platforms  ||  
+
+AM-160: Ensure that applicable AM protection is defined and deployed (in line with the predefined AM Strategy) on Technology Assets to ensure effective malware threat prevention through IT architecture.
+Note: Applicable baseline requirements, as defined in section 7.3 “Baseline AM requirements for consideration in the AM Approach and Strategy” should be considered for AM countermeasures selection",Secure Configuration Management
+KC55b,Anti-Malware,"AM-006 (6b)  ||  
+
+AM-008a (2) & (4)","AM-006: Ensure that a model for Process effectiveness and compliance with the Standard is present by:
+  1) documenting the AM approach and Strategy,; 2) documenting and communicating operational procedures to impacted stakeholders,; 3) defining Process effectiveness metrics, approach to issue identification and data quality checks,; 4) determining escalation paths for issue management, 5) continuous improvement,
+  6) MI and reporting: a) the overall state of the AM services,; b) monitored hosts compliance,; c) malware issues, event, and incidents.  ||  
+
+AM-008a: Ensure that any tools deployed to support AM purposes:
+1) is managed centrally so that policy enforcement and configuration is carried out centrally, including an automated malware definitions refresh,
+2) actively control monitored hosts compliance status (see section 7.2 “Review Frequency” for recommended frequency of the reviews/checks),
+3) ensures coverage of hosts in scope of the AM approach and strategy,
+4) enables remediation of issues identified by the AM tool (such as AM agent failures, signature accuracy, etc.),
+5) is integrated with applicable Group solutions (such as SIEM, security monitoring tools, SCCM),
+6) have access control and adhere to Group's Identity and Access Management Standard,
+7) is documented (architecture, configuration, data flows, services provided).
+[Reference: Security Logging and Monitoring Standard, Identity and Access Management Standard]
+Note: the AM tooling coverage –technical compatibility with Group approved product and platforms",Secure Configuration Management
+KC126,Security in Interaction with Third Parties,"STP-050  ||
+STP-060  ||
+STP-090","STP-050: Create and maintain documentation of observations and risks identified, and agreed actions plans with the Third Parties for further monitoring.  ||
+STP-060: Inform relevant stakeholders on the outcome of risk assessments highlighting potential implications to the Group.  ||
+STP-090: Ensure that an Information and cyber security risk and controls assessment is carried out on the Third Party (and any subcontractor, where applicable):
+1. Prior to signing the contract or actual service commencement, whichever occurs first;
+[Note: Prevent Third Party access to Group Information Assets, Information Systems or Technology Infrastructure until assessments have been carried out and are acceptable].
+2. When there is a change in the scope of services provided or the nature of the data shared/processed under the existing contract or as part of contract renewal; and/or
+3. Prior to renewal of the contract",Third Party Security Management
+KC126,Security in Interaction with Third Parties,"STP-050  ||
+STP-060  ||
+STP-090","STP-050: Create and maintain documentation of observations and risks identified, and agreed actions plans with the Third Parties for further monitoring.  ||
+STP-060: Inform relevant stakeholders on the outcome of risk assessments highlighting potential implications to the Group.  ||
+STP-090: Ensure that an Information and cyber security risk and controls assessment is carried out on the Third Party (and any subcontractor, where applicable):
+1. Prior to signing the contract or actual service commencement, whichever occurs first;
+[Note: Prevent Third Party access to Group Information Assets, Information Systems or Technology Infrastructure until assessments have been carried out and are acceptable].
+2. When there is a change in the scope of services provided or the nature of the data shared/processed under the existing contract or as part of contract renewal; and/or
+3. Prior to renewal of the contract",Third Party Security Management
+KC126,Security in Interaction with Third Parties,"STP-050  ||
+STP-060  ||
+STP-090","STP-050: Create and maintain documentation of observations and risks identified, and agreed actions plans with the Third Parties for further monitoring.  ||
+STP-060: Inform relevant stakeholders on the outcome of risk assessments highlighting potential implications to the Group.  ||
+STP-090: Ensure that an Information and cyber security risk and controls assessment is carried out on the Third Party (and any subcontractor, where applicable):
+1. Prior to signing the contract or actual service commencement, whichever occurs first;
+[Note: Prevent Third Party access to Group Information Assets, Information Systems or Technology Infrastructure until assessments have been carried out and are acceptable].
+2. When there is a change in the scope of services provided or the nature of the data shared/processed under the existing contract or as part of contract renewal; and/or
+3. Prior to renewal of the contract",Third Party Security Management
+KC126,Security in Interaction with Third Parties,"STP-050  ||
+STP-060  ||
+STP-090","STP-050: Create and maintain documentation of observations and risks identified, and agreed actions plans with the Third Parties for further monitoring.  ||
+STP-060: Inform relevant stakeholders on the outcome of risk assessments highlighting potential implications to the Group.  ||
+STP-090: Ensure that an Information and cyber security risk and controls assessment is carried out on the Third Party (and any subcontractor, where applicable):
+1. Prior to signing the contract or actual service commencement, whichever occurs first;
+[Note: Prevent Third Party access to Group Information Assets, Information Systems or Technology Infrastructure until assessments have been carried out and are acceptable].
+2. When there is a change in the scope of services provided or the nature of the data shared/processed under the existing contract or as part of contract renewal; and/or
+3. Prior to renewal of the contract",Third Party Security Management
+KC126,Security in Interaction with Third Parties,"STP-050  ||
+STP-060  ||
+STP-090","STP-050: Create and maintain documentation of observations and risks identified, and agreed actions plans with the Third Parties for further monitoring.  ||
+STP-060: Inform relevant stakeholders on the outcome of risk assessments highlighting potential implications to the Group.  ||
+STP-090: Ensure that an Information and cyber security risk and controls assessment is carried out on the Third Party (and any subcontractor, where applicable):
+1. Prior to signing the contract or actual service commencement, whichever occurs first;
+[Note: Prevent Third Party access to Group Information Assets, Information Systems or Technology Infrastructure until assessments have been carried out and are acceptable].
+2. When there is a change in the scope of services provided or the nature of the data shared/processed under the existing contract or as part of contract renewal; and/or
+3. Prior to renewal of the contract",Third Party Security Management
+KC126,Security in Interaction with Third Parties,"STP-050  ||
+STP-060  ||
+STP-090","STP-050: Create and maintain documentation of observations and risks identified, and agreed actions plans with the Third Parties for further monitoring.  ||
+STP-060: Inform relevant stakeholders on the outcome of risk assessments highlighting potential implications to the Group.  ||
+STP-090: Ensure that an Information and cyber security risk and controls assessment is carried out on the Third Party (and any subcontractor, where applicable):
+1. Prior to signing the contract or actual service commencement, whichever occurs first;
+[Note: Prevent Third Party access to Group Information Assets, Information Systems or Technology Infrastructure until assessments have been carried out and are acceptable].
+2. When there is a change in the scope of services provided or the nature of the data shared/processed under the existing contract or as part of contract renewal; and/or
+3. Prior to renewal of the contract",Third Party Security Management
+KC126,Security in Interaction with Third Parties,"STP-050  ||
+STP-060  ||
+STP-090","STP-050: Create and maintain documentation of observations and risks identified, and agreed actions plans with the Third Parties for further monitoring.  ||
+STP-060: Inform relevant stakeholders on the outcome of risk assessments highlighting potential implications to the Group.  ||
+STP-090: Ensure that an Information and cyber security risk and controls assessment is carried out on the Third Party (and any subcontractor, where applicable):
+1. Prior to signing the contract or actual service commencement, whichever occurs first;
+[Note: Prevent Third Party access to Group Information Assets, Information Systems or Technology Infrastructure until assessments have been carried out and are acceptable].
+2. When there is a change in the scope of services provided or the nature of the data shared/processed under the existing contract or as part of contract renewal; and/or
+3. Prior to renewal of the contract",Third Party Security Management
+KC39,Crisis Management Standard,"CM-2.2.8  ||  
+
+CM-2.2.10","2.2.8: PLAYBOOKS 
+A playbook is a documented decision making, communication and action guide designed to help the Group respond effectively to specific threat scenarios. Playbooks are based on scenarios provided by Risk Framework Owners. The scenarios should be developed in consultation with Process and Client Journey Owners, Subject Matter Experts and Operational Resilience to provide the details which the playbooks will be required to address.  ||  
+
+2.2.10: TRAINING AND EXERCISING 
+Training requirements
+• All CrMG members must be trained in their role in a CrMG AND all playbooks they may rely on in a crisis
+• Training can be delivered either on an individual basis, through eLearning and digital channels or to the CrMG as a team
+Exercising requirements
+• All Exercise documentation must be completed using the prescribed templates available on in the Crisis Exercise Tool (“CrEx”)
+• All Exercises must be registered on the Crisis Event Database and any actions arising recorded in the Crisis Actions Database
+• Exercise documentation including relevant signoff must be stored in the Crisis Exercise Tool (“CrEx”)
+• All significant issues arising from crisis exercises and mass notification tests must be managed and escalated as per Section 4.3 Issues Monitoring and Escalation",Security Incident Management
+KC54a,"IT Service Continuity Management (ITSCM) Standard; 
+IT Resilience Management Standard",NotICS-RES.ITSCM.ST.CR01,"RES.ITSCM.ST.CR01: Technology Support Manager must test and validate the effectiveness of recovery plans for technology services as per RES.ITSCM.NORM03 4.1.3 Service Continuity Testing'
+
+RES.ART.FL.CR01:Technology Support Manager must ensure that all technology servicesare grouped by the number of critical failure domains that constitute the service as per 'RES.ART.NORM01 Failure Domains'
+
+RES.ART.FL.CR02 :Technology Support Manager must ensure that service continuity testing is carried out where mandated as per Normative Standard 'RES.ART.NORM04 Test Applicability' and in adoption of objectives and test scope
+
+as per 'RES.ART.NORM03 Test Levels and Scope' for the respective Loss Scenario as per 'RES.ART.NORM02 Loss Scenarios'
+
+RES.ITSCM.SM.CR02 :Technology Support Manager must ensure that all root cause analysis include a review of failed continuity controls and trigger a continuity risk assessment upon detection as per
+
+RES.ITSCM.NORM05 4.1.5.4 Problem Management'
+
+RES.ITSCM.SR.CR02:
+
+Technology Service Owner and Technology Data Owner must define the data requirements to ensure system availability to the Business following a disaster
+Technology Service Owner must define the schedule for storing relevant data to support continuity requirements.
+Technology Data Owner must ensure a copy of relevant production data is stored independently (separate to the production environment) to facilitate continuity following a disaster
+as per
+'4.1.1.2 Data Availability for Service Continuity' and '4.1.2 RES.RM.NORM02 Criticality Rating'
+
+RES.ITSCM.SM.CR03 : Technology Service Owner must ensure that their Technology Services with their critical dependencies are recorded as per configuration management to ensure continuity planning and testing is comprehensive as per
+
+'RES.ITSCM.NORM05 4.1.5.5 Service Asset Configuration Management'
+RES.ITSCM.SM.CR01: Technology Support Manager must ensure that changes do not impact the continuity capability of the technology service as per'RES.ITSCM.NORM05 4.1.5.1 to 4.1.5.3 of Service Continuity Maintenance'
+RES.ITSCM.SI.CR01: Technology Service Owner must ensure that the service continuity plan is executed when invoked
+
+as per
+'RES.ITSCM.NORM06 4.1.6 Continuity Plan Invocation & Execution'",Security Incident Management
+KC54b,"IT Service Continuity Management (ITSCM) Standard; 
+IT Resilience Management Standard",NotICS-RES.ITSCM.ST.CR01,"RES.ITSCM.ST.CR01: Technology Support Manager must test and validate the effectiveness of recovery plans for technology services as per RES.ITSCM.NORM03 4.1.3 Service Continuity Testing'
+
+RES.ART.FL.CR01:Technology Support Manager must ensure that all technology servicesare grouped by the number of critical failure domains that constitute the service as per 'RES.ART.NORM01 Failure Domains'
+
+RES.ART.FL.CR02 :Technology Support Manager must ensure that service continuity testing is carried out where mandated as per Normative Standard 'RES.ART.NORM04 Test Applicability' and in adoption of objectives and test scope
+
+as per 'RES.ART.NORM03 Test Levels and Scope' for the respective Loss Scenario as per 'RES.ART.NORM02 Loss Scenarios'
+
+RES.ITSCM.SM.CR02 :Technology Support Manager must ensure that all root cause analysis include a review of failed continuity controls and trigger a continuity risk assessment upon detection as per
+
+RES.ITSCM.NORM05 4.1.5.4 Problem Management'
+
+RES.ITSCM.SR.CR02:
+
+Technology Service Owner and Technology Data Owner must define the data requirements to ensure system availability to the Business following a disaster
+Technology Service Owner must define the schedule for storing relevant data to support continuity requirements.
+Technology Data Owner must ensure a copy of relevant production data is stored independently (separate to the production environment) to facilitate continuity following a disaster
+as per
+'4.1.1.2 Data Availability for Service Continuity' and '4.1.2 RES.RM.NORM02 Criticality Rating'
+
+RES.ITSCM.SM.CR03 : Technology Service Owner must ensure that their Technology Services with their critical dependencies are recorded as per configuration management to ensure continuity planning and testing is comprehensive as per
+
+'RES.ITSCM.NORM05 4.1.5.5 Service Asset Configuration Management'
+RES.ITSCM.SM.CR01: Technology Support Manager must ensure that changes do not impact the continuity capability of the technology service as per'RES.ITSCM.NORM05 4.1.5.1 to 4.1.5.3 of Service Continuity Maintenance'
+RES.ITSCM.SI.CR01: Technology Service Owner must ensure that the service continuity plan is executed when invoked
+
+as per
+'RES.ITSCM.NORM06 4.1.6 Continuity Plan Invocation & Execution'",Security Incident Management
+KC54a,"IT Service Continuity Management (ITSCM) Standard; 
+IT Resilience Management Standard",NotICS-RES.ITSCM.ST.CR01,"RES.ITSCM.ST.CR01: Technology Support Manager must test and validate the effectiveness of recovery plans for technology services as per RES.ITSCM.NORM03 4.1.3 Service Continuity Testing'
+
+RES.ART.FL.CR01:Technology Support Manager must ensure that all technology servicesare grouped by the number of critical failure domains that constitute the service as per 'RES.ART.NORM01 Failure Domains'
+
+RES.ART.FL.CR02 :Technology Support Manager must ensure that service continuity testing is carried out where mandated as per Normative Standard 'RES.ART.NORM04 Test Applicability' and in adoption of objectives and test scope
+
+as per 'RES.ART.NORM03 Test Levels and Scope' for the respective Loss Scenario as per 'RES.ART.NORM02 Loss Scenarios'
+
+RES.ITSCM.SM.CR02 :Technology Support Manager must ensure that all root cause analysis include a review of failed continuity controls and trigger a continuity risk assessment upon detection as per
+
+RES.ITSCM.NORM05 4.1.5.4 Problem Management'
+
+RES.ITSCM.SR.CR02:
+
+Technology Service Owner and Technology Data Owner must define the data requirements to ensure system availability to the Business following a disaster
+Technology Service Owner must define the schedule for storing relevant data to support continuity requirements.
+Technology Data Owner must ensure a copy of relevant production data is stored independently (separate to the production environment) to facilitate continuity following a disaster
+as per
+'4.1.1.2 Data Availability for Service Continuity' and '4.1.2 RES.RM.NORM02 Criticality Rating'
+
+RES.ITSCM.SM.CR03 : Technology Service Owner must ensure that their Technology Services with their critical dependencies are recorded as per configuration management to ensure continuity planning and testing is comprehensive as per
+
+'RES.ITSCM.NORM05 4.1.5.5 Service Asset Configuration Management'
+RES.ITSCM.SM.CR01: Technology Support Manager must ensure that changes do not impact the continuity capability of the technology service as per'RES.ITSCM.NORM05 4.1.5.1 to 4.1.5.3 of Service Continuity Maintenance'
+RES.ITSCM.SI.CR01: Technology Service Owner must ensure that the service continuity plan is executed when invoked
+
+as per
+'RES.ITSCM.NORM06 4.1.6 Continuity Plan Invocation & Execution'",Security Incident Management
+KC54b,"IT Service Continuity Management (ITSCM) Standard; 
+IT Resilience Management Standard",NotICS-RES.ITSCM.ST.CR01,"RES.ITSCM.ST.CR01: Technology Support Manager must test and validate the effectiveness of recovery plans for technology services as per RES.ITSCM.NORM03 4.1.3 Service Continuity Testing'
+
+RES.ART.FL.CR01:Technology Support Manager must ensure that all technology servicesare grouped by the number of critical failure domains that constitute the service as per 'RES.ART.NORM01 Failure Domains'
+
+RES.ART.FL.CR02 :Technology Support Manager must ensure that service continuity testing is carried out where mandated as per Normative Standard 'RES.ART.NORM04 Test Applicability' and in adoption of objectives and test scope
+
+as per 'RES.ART.NORM03 Test Levels and Scope' for the respective Loss Scenario as per 'RES.ART.NORM02 Loss Scenarios'
+
+RES.ITSCM.SM.CR02 :Technology Support Manager must ensure that all root cause analysis include a review of failed continuity controls and trigger a continuity risk assessment upon detection as per
+
+RES.ITSCM.NORM05 4.1.5.4 Problem Management'
+
+RES.ITSCM.SR.CR02:
+
+Technology Service Owner and Technology Data Owner must define the data requirements to ensure system availability to the Business following a disaster
+Technology Service Owner must define the schedule for storing relevant data to support continuity requirements.
+Technology Data Owner must ensure a copy of relevant production data is stored independently (separate to the production environment) to facilitate continuity following a disaster
+as per
+'4.1.1.2 Data Availability for Service Continuity' and '4.1.2 RES.RM.NORM02 Criticality Rating'
+
+RES.ITSCM.SM.CR03 : Technology Service Owner must ensure that their Technology Services with their critical dependencies are recorded as per configuration management to ensure continuity planning and testing is comprehensive as per
+
+'RES.ITSCM.NORM05 4.1.5.5 Service Asset Configuration Management'
+RES.ITSCM.SM.CR01: Technology Support Manager must ensure that changes do not impact the continuity capability of the technology service as per'RES.ITSCM.NORM05 4.1.5.1 to 4.1.5.3 of Service Continuity Maintenance'
+RES.ITSCM.SI.CR01: Technology Service Owner must ensure that the service continuity plan is executed when invoked
+
+as per
+'RES.ITSCM.NORM06 4.1.6 Continuity Plan Invocation & Execution'",Security Incident Management
+KC54b,"IT Service Continuity Management (ITSCM) Standard; 
+IT Resilience Management Standard",NotICS-RES.ITSCM.ST.CR01,"RES.ITSCM.ST.CR01: Technology Support Manager must test and validate the effectiveness of recovery plans for technology services as per RES.ITSCM.NORM03 4.1.3 Service Continuity Testing'
+
+RES.ART.FL.CR01:Technology Support Manager must ensure that all technology servicesare grouped by the number of critical failure domains that constitute the service as per 'RES.ART.NORM01 Failure Domains'
+
+RES.ART.FL.CR02 :Technology Support Manager must ensure that service continuity testing is carried out where mandated as per Normative Standard 'RES.ART.NORM04 Test Applicability' and in adoption of objectives and test scope
+
+as per 'RES.ART.NORM03 Test Levels and Scope' for the respective Loss Scenario as per 'RES.ART.NORM02 Loss Scenarios'
+
+RES.ITSCM.SM.CR02 :Technology Support Manager must ensure that all root cause analysis include a review of failed continuity controls and trigger a continuity risk assessment upon detection as per
+
+RES.ITSCM.NORM05 4.1.5.4 Problem Management'
+
+RES.ITSCM.SR.CR02:
+
+Technology Service Owner and Technology Data Owner must define the data requirements to ensure system availability to the Business following a disaster
+Technology Service Owner must define the schedule for storing relevant data to support continuity requirements.
+Technology Data Owner must ensure a copy of relevant production data is stored independently (separate to the production environment) to facilitate continuity following a disaster
+as per
+'4.1.1.2 Data Availability for Service Continuity' and '4.1.2 RES.RM.NORM02 Criticality Rating'
+
+RES.ITSCM.SM.CR03 : Technology Service Owner must ensure that their Technology Services with their critical dependencies are recorded as per configuration management to ensure continuity planning and testing is comprehensive as per
+
+'RES.ITSCM.NORM05 4.1.5.5 Service Asset Configuration Management'
+RES.ITSCM.SM.CR01: Technology Support Manager must ensure that changes do not impact the continuity capability of the technology service as per'RES.ITSCM.NORM05 4.1.5.1 to 4.1.5.3 of Service Continuity Maintenance'
+RES.ITSCM.SI.CR01: Technology Service Owner must ensure that the service continuity plan is executed when invoked
+
+as per
+'RES.ITSCM.NORM06 4.1.6 Continuity Plan Invocation & Execution'",Security Incident Management
+KC54b,"IT Service Continuity Management (ITSCM) Standard; 
+IT Resilience Management Standard",NotICS-RES.ITSCM.ST.CR01,"RES.ITSCM.ST.CR01: Technology Support Manager must test and validate the effectiveness of recovery plans for technology services as per RES.ITSCM.NORM03 4.1.3 Service Continuity Testing'
+
+RES.ART.FL.CR01:Technology Support Manager must ensure that all technology servicesare grouped by the number of critical failure domains that constitute the service as per 'RES.ART.NORM01 Failure Domains'
+
+RES.ART.FL.CR02 :Technology Support Manager must ensure that service continuity testing is carried out where mandated as per Normative Standard 'RES.ART.NORM04 Test Applicability' and in adoption of objectives and test scope
+
+as per 'RES.ART.NORM03 Test Levels and Scope' for the respective Loss Scenario as per 'RES.ART.NORM02 Loss Scenarios'
+
+RES.ITSCM.SM.CR02 :Technology Support Manager must ensure that all root cause analysis include a review of failed continuity controls and trigger a continuity risk assessment upon detection as per
+
+RES.ITSCM.NORM05 4.1.5.4 Problem Management'
+
+RES.ITSCM.SR.CR02:
+
+Technology Service Owner and Technology Data Owner must define the data requirements to ensure system availability to the Business following a disaster
+Technology Service Owner must define the schedule for storing relevant data to support continuity requirements.
+Technology Data Owner must ensure a copy of relevant production data is stored independently (separate to the production environment) to facilitate continuity following a disaster
+as per
+'4.1.1.2 Data Availability for Service Continuity' and '4.1.2 RES.RM.NORM02 Criticality Rating'
+
+RES.ITSCM.SM.CR03 : Technology Service Owner must ensure that their Technology Services with their critical dependencies are recorded as per configuration management to ensure continuity planning and testing is comprehensive as per
+
+'RES.ITSCM.NORM05 4.1.5.5 Service Asset Configuration Management'
+RES.ITSCM.SM.CR01: Technology Support Manager must ensure that changes do not impact the continuity capability of the technology service as per'RES.ITSCM.NORM05 4.1.5.1 to 4.1.5.3 of Service Continuity Maintenance'
+RES.ITSCM.SI.CR01: Technology Service Owner must ensure that the service continuity plan is executed when invoked
+
+as per
+'RES.ITSCM.NORM06 4.1.6 Continuity Plan Invocation & Execution'",Security Incident Management
+KC54b,"IT Service Continuity Management (ITSCM) Standard; 
+IT Resilience Management Standard",NotICS-RES.ITSCM.ST.CR01,"RES.ITSCM.ST.CR01: Technology Support Manager must test and validate the effectiveness of recovery plans for technology services as per RES.ITSCM.NORM03 4.1.3 Service Continuity Testing'
+
+RES.ART.FL.CR01:Technology Support Manager must ensure that all technology servicesare grouped by the number of critical failure domains that constitute the service as per 'RES.ART.NORM01 Failure Domains'
+
+RES.ART.FL.CR02 :Technology Support Manager must ensure that service continuity testing is carried out where mandated as per Normative Standard 'RES.ART.NORM04 Test Applicability' and in adoption of objectives and test scope
+
+as per 'RES.ART.NORM03 Test Levels and Scope' for the respective Loss Scenario as per 'RES.ART.NORM02 Loss Scenarios'
+
+RES.ITSCM.SM.CR02 :Technology Support Manager must ensure that all root cause analysis include a review of failed continuity controls and trigger a continuity risk assessment upon detection as per
+
+RES.ITSCM.NORM05 4.1.5.4 Problem Management'
+
+RES.ITSCM.SR.CR02:
+
+Technology Service Owner and Technology Data Owner must define the data requirements to ensure system availability to the Business following a disaster
+Technology Service Owner must define the schedule for storing relevant data to support continuity requirements.
+Technology Data Owner must ensure a copy of relevant production data is stored independently (separate to the production environment) to facilitate continuity following a disaster
+as per
+'4.1.1.2 Data Availability for Service Continuity' and '4.1.2 RES.RM.NORM02 Criticality Rating'
+
+RES.ITSCM.SM.CR03 : Technology Service Owner must ensure that their Technology Services with their critical dependencies are recorded as per configuration management to ensure continuity planning and testing is comprehensive as per
+
+'RES.ITSCM.NORM05 4.1.5.5 Service Asset Configuration Management'
+RES.ITSCM.SM.CR01: Technology Support Manager must ensure that changes do not impact the continuity capability of the technology service as per'RES.ITSCM.NORM05 4.1.5.1 to 4.1.5.3 of Service Continuity Maintenance'
+RES.ITSCM.SI.CR01: Technology Service Owner must ensure that the service continuity plan is executed when invoked
+
+as per
+'RES.ITSCM.NORM06 4.1.6 Continuity Plan Invocation & Execution'",Security Incident Management
+KC126,Security in Interaction with Third Parties,"STP-050  ||
+STP-060  ||
+STP-090","STP-050: Create and maintain documentation of observations and risks identified, and agreed actions plans with the Third Parties for further monitoring.  ||
+STP-060: Inform relevant stakeholders on the outcome of risk assessments highlighting potential implications to the Group.  ||
+STP-090: Ensure that an Information and cyber security risk and controls assessment is carried out on the Third Party (and any subcontractor, where applicable):
+1. Prior to signing the contract or actual service commencement, whichever occurs first;
+[Note: Prevent Third Party access to Group Information Assets, Information Systems or Technology Infrastructure until assessments have been carried out and are acceptable].
+2. When there is a change in the scope of services provided or the nature of the data shared/processed under the existing contract or as part of contract renewal; and/or
+3. Prior to renewal of the contract",Third Party Security Management
+KC126,Security in Interaction with Third Parties,"STP-050  ||
+STP-060  ||
+STP-090","STP-050: Create and maintain documentation of observations and risks identified, and agreed actions plans with the Third Parties for further monitoring.  ||
+STP-060: Inform relevant stakeholders on the outcome of risk assessments highlighting potential implications to the Group.  ||
+STP-090: Ensure that an Information and cyber security risk and controls assessment is carried out on the Third Party (and any subcontractor, where applicable):
+1. Prior to signing the contract or actual service commencement, whichever occurs first;
+[Note: Prevent Third Party access to Group Information Assets, Information Systems or Technology Infrastructure until assessments have been carried out and are acceptable].
+2. When there is a change in the scope of services provided or the nature of the data shared/processed under the existing contract or as part of contract renewal; and/or
+3. Prior to renewal of the contract",Third Party Security Management
+KC83,Applications Security,AS-440,"AS-440: Complete the security testing below for new applications and review these tests for rebuilt or materially modified Applications as per prevailing processes required prior to deploying into Production: Security Acceptance Testing [“SAT”]; Application Vulnerability Testing [“AVT”]; Code Security Review; Penetration Testing [“PT”] 
+[Note: Materially modified Applications include changes to security modules/architecture, a major release, new functionality] [Reference: ICS Vulnerability Identification and Management Standard]",System Lifecycle Security (incl. Vulnerability Management)
+KC83,Vulnerability Identification and Management,VIAM-370,"VIAM-370: Document, track and implement remediation actions with agreed timelines for identified vulnerabilities or security configuration gaps. If the remediation timeline is in breach with the timeline defined in Appendix: Table 2 – Vulnerabilities Classification and Remediation, then a relevant valid risk treatment must be documented and tracked.",System Lifecycle Security (incl. Vulnerability Management)
+KC83,Vulnerability Identification and Management,VIAM-370,"VIAM-370: Document, track and implement remediation actions with agreed timelines for identified vulnerabilities or security configuration gaps. If the remediation timeline is in breach with the timeline defined in Appendix: Table 2 – Vulnerabilities Classification and Remediation, then a relevant valid risk treatment must be documented and tracked.",System Lifecycle Security (incl. Vulnerability Management)
+KC100a,Vulnerability Identification and Management,VIAM-330  || VIAM-410,"VIAM-330: Ensure that all vulnerabilities are assessed, classified using unified rating and prioritized using a risk-based approach taking into consideration:likelihood assessment,impact assessment (S-BIA),Information Asset rating or Information Classification,location of the Information Systems or Technology Infrastructure,compensating controls,threat intelligence,vulnerability rating (at first using Common Vulnerability Scoring System (CVSS), if not available then using vendor scoring) they are addressing.[Reference: Table 2 – Vulnerabilities Classification and Remediation] 
+||
+VIAM-410: Ensure that identified vulnerabilities are fully remediated. ",System Lifecycle Security (incl. Vulnerability Management)
+KC20,Identity and Access Management,IAM-190,"IAM-190: Establish a documented process for managing Accounts with Privileged attribute in Information Systems and Technology Infrastructure (including Local Accounts with Privileged attribute) which adhere to the following: 
+a) Technique for controlling Account (with Privileged attribute) access and use for each Information System and Technology Infrastructure must be determined: Account escalation (Individual Account) or account sharing (Generic Account); 
+b) Privileged entitlements for each account must be identified, approved, and recorded 
+c) Every usage must be directly associated with defined, planned, and approved security or administrative activity [For example: Change Request or Incident]. This must be ensured through implementation of a Just-In-Time Access control model (if not technically feasible then exception must be documented [including risk assessment]). ""Broker and remove access"" type is preferred and recommended 
+d) Password for Account with Privileged attribute must be securely vaulted when not in use 
+e) Password for Account with Privileged attribute must be changed after each usage 
+f) Access to Account with Privileged attribute must be restricted to Staff authorised by Information System Owner or Technology Infrastructure Owner 
+g) Controls must be in place to ensure that identification of authorised Staff, using Account with Privileged attribute at any time, is possible. (This must include full auditing and non-repudiation mechanisms) 
+h) Must be recertified every six months 
+i) Every Account with Privileged attribute must be risk assessed 
+j) Staff having access to any Information System or Technology Infrastructure with the usage of any Generic Account with Privileged attribute can't have access to such Information System or Technology Infrastructure with the usage of any Individual Account 
+k) Staff having access to any Information System or Technology Infrastructure with the usage of any Individual Account with Privileged attribute can't have access to such Information System or Technology Infrastructure with the usage of any other Individual Account 
+
+[Reference: IAM-135]",Identity and Access Management
+KC100c,Vulnerability Identification and Management,VIAM-330  || VIAM-410,"VIAM-330: Ensure that all vulnerabilities are assessed, classified using unified rating and prioritized using a risk-based approach taking into consideration:likelihood assessment,impact assessment (S-BIA),Information Asset rating or Information Classification,location of the Information Systems or Technology Infrastructure,compensating controls,threat intelligence,vulnerability rating (at first using Common Vulnerability Scoring System (CVSS), if not available then using vendor scoring) they are addressing.[Reference: Table 2 – Vulnerabilities Classification and Remediation] 
+||
+VIAM-410: Ensure that identified vulnerabilities are fully remediated. ",System Lifecycle Security (incl. Vulnerability Management)
+KC100f,Vulnerability Identification and Management,VIAM-370                  ,"VIAM-370: Document, track and implement remediation actions with agreed timelines for identified vulnerabilities or security configuration gaps. If the remediation timeline is in breach with the timeline defined in Appendix: Table 2 – Vulnerabilities Classification and Remediation, then a relevant valid risk treatment must be documented and tracked.",System Lifecycle Security (incl. Vulnerability Management)
+KC100f,Vulnerability Identification and Management,VIAM-370                  ,"VIAM-370: Document, track and implement remediation actions with agreed timelines for identified vulnerabilities or security configuration gaps. If the remediation timeline is in breach with the timeline defined in Appendix: Table 2 – Vulnerabilities Classification and Remediation, then a relevant valid risk treatment must be documented and tracked.",System Lifecycle Security (incl. Vulnerability Management)
+KC23,Identity and Access Management,"IAM-211 ||  
+IAM-210","IAM-211: Create any Account which adhere to the following:
+a) Entitlements must be assigned to Role and then Role to an Account in line with RBAC principle:
+• core RBAC
+• hierarchical RBAC, which adds support for inheritance between roles
+• constrained RBAC, which adds SoD – TAM
+b) Accounts (identifier/login/Account name) must be unique (if technically feasible) and follow naming convention that enables differentiating them between Production and Non-Production
+Note: Assigning entitlements directly to an Account is not allowed (if not technically feasible then exception must be documented and risk assessed, then assigning entitlements directly to an Account is allowed).
+||
+IAM-210: Identify and approve Staff ('Authorised Staff') assignment for the use of any Account as needed by their Job Role and based on the 'Least Privilege' Principle.",Identity and Access Management
+KC23,Identity and Access Management,"IAM-850  ||  
+IAM-880  ||  
+IAM-890             ","IAM-850: Initiate Access Reviews every 6 months in accordance with the User Access Certification [“UAC”] and Manager Access Review [“MAR”] processes and provide People Managers with the required reports.
+||
+IAM-880: Review and endorse the results of their Information System access review reports.
+||
+IAM-890: Report completion rates of system access reviews and any access discrepancies back to the Information System Owner.",Identity and Access Management
+KC23,Identity and Access Management,"IAM-850  ||  
+IAM-880  ||  
+IAM-890             ","IAM-850: Initiate Access Reviews every 6 months in accordance with the User Access Certification [“UAC”] and Manager Access Review [“MAR”] processes and provide People Managers with the required reports.
+||
+IAM-880: Review and endorse the results of their Information System access review reports.
+||
+IAM-890: Report completion rates of system access reviews and any access discrepancies back to the Information System Owner.",Identity and Access Management
+KC23,Identity and Access Management,"IAM-850  ||  
+IAM-880  ||  
+IAM-890             ","IAM-850: Initiate Access Reviews every 6 months in accordance with the User Access Certification [“UAC”] and Manager Access Review [“MAR”] processes and provide People Managers with the required reports.
+||
+IAM-880: Review and endorse the results of their Information System access review reports.
+||
+IAM-890: Report completion rates of system access reviews and any access discrepancies back to the Information System Owner.",Identity and Access Management
+KC23,Identity and Access Management,"IAM-850  ||  
+IAM-880  ||  
+IAM-890             ","IAM-850: Initiate Access Reviews every 6 months in accordance with the User Access Certification [“UAC”] and Manager Access Review [“MAR”] processes and provide People Managers with the required reports.
+||
+IAM-880: Review and endorse the results of their Information System access review reports.
+||
+IAM-890: Report completion rates of system access reviews and any access discrepancies back to the Information System Owner.",Identity and Access Management
+KC78,Mobile Device Security Standard,"MDS-080  || 
+MDS-100  || 
+MDS-130  || 
+MDS-140  || 
+MDS-150
+","MDS-080: Block access to Group Information for non-compliant Mobile Devices, such as when [but not limited to]: a) Mobile Device has not been connected to the central management server for a defined number of days [90 days]; b) Operating System is less than the Group defined version; c) Operating System has been tampered with; d) Security configuration is tampered with; e) Mobile Device is jailbroken or rooted; f) Anti-Virus is disabled [Laptops only]; g) Security profiles are removed; and h) Is lost or stolen. [Note: For Laptops where technically feasible]  ||
+MDS-100: Ensure that Mobile Devices connecting to the Group network are installed with the encrypted security profile issued by Group which must have a profile unique to the user and the mobile device. The user must not be able to delete or edit this profile. [The Digital Certificate].   ||
+MDS-130: Ensure that remote wipe is performed, and the security certificate must be revoked when the Mobile Device is: Lost or stolen; Sent to Third Party for repair; Jailbroken or rooted; Contains an application that is known to contain a security vulnerability (if not removed within a given timeframe after informing the user); A user has exceeded the maximum number of failed password attempts; Part of an employee exit clearance, transfer of service or termination process; Returned to Third Party; Sent to Third Party for destruction. [Reference: Identity and Access Management Standard and Vulnerability Identification and Management Standard]  ||
+MDS-140: Ensure that Group’s Information and [Non-Group’s] Personal Information are separated through containerisation  ||
+MDS-150: Protect Portable Storage Devices by using: Access restrictions (For Example: whether the user is authorised to read, write or format the device); Encryption techniques wherever applicable (using Group's approved cryptographic algorithms). For Example: using encryption software installed on the device or using file-encryption software on the computing device to which the Portable Storage Device connects when storing Group's Information. [Reference: ICS Information Classification Standard, ICS Information Handling Standard, ICS Cryptography Standard]
+",Secure Configuration Management
+KC95,Security Logging and Monitoring,SLM-230,Ensure security event logs from all systems and infrastructure in scope of central log storage are received by the monitoring resources near real-time monitoring.Note: Real-time monitoring and alerting capabilities must be enabled to provide visibility of the usage and performance of Application Program Interfaces [API] and detect suspicious activities.,Security Logging and Monitoring
+KC133,Security Logging and Monitoring,SLM-230,Ensure security event logs from all systems and infrastructure in scope of central log storage are received by the monitoring resources near real-time monitoring.Note: Real-time monitoring and alerting capabilities must be enabled to provide visibility of the usage and performance of Application Program Interfaces [API] and detect suspicious activities.,Security Logging and Monitoring
+KC134,Security Logging and Monitoring,SLM-230,Ensure security event logs from all systems and infrastructure in scope of central log storage are received by the monitoring resources near real-time monitoring.Note: Real-time monitoring and alerting capabilities must be enabled to provide visibility of the usage and performance of Application Program Interfaces [API] and detect suspicious activities.,Security Logging and Monitoring
+KC94,Web Filtering,WF-080,"WF-080: Ensure the recertification of user’s exception access to web categories or websites occurs once every 6 months. 
+Note: The users must be notified a minimum of 4 weeks before expiry of exception access. Access must be revoked in case of no request from user on expiry date.",Secure Configuration Management
+KC94,Web Filtering,WF-070,"WF-070: Ensure access to web categories or websites, files types and content which pose a security risk to the Group must be restricted / blocked by default and exceptions must be formally agreed in line with the process rolled out by the GPO [Group Process Owner].",Secure Configuration Management
+KC94,Web Filtering,WF-030,WF-030: Ensure a dedicated web filtering solution must be used to control access to websites and file types based on categories and contents in Production and non-Production.,Secure Configuration Management
+KC132,Anti-Malware,AM-040 || AM-220,"AM-040: Ensure a Group approved anti-malware solution is implemented and run-on Information Systems and Technology Infrastructure as per scope, instructions and configuration guidelines defined by the AM Process Owner. Note: This includes Appliances and Group Services hosted in Cloud. Note: For Group approved (Employee Owned) mobile devices, the employee must ensure protection is implemented against malware and clean any malware found on the device. ||
+
+AM-220: Ensure the required architecture, configuration, and operations (as shared by the AM Process Owner) are deployed and maintained effectively for owned Information System/ Technology Infrastructure/Application to meet the AM requirements.",Information Protection
+KC126,NA,NA,NA,Third Party Security Management
+KC126,NA,NA,NA,Third Party Security Management
+KC126,NA,NA,NA,Third Party Security Management
+KC126,NA,NA,NA,Third Party Security Management
+KC126,NA,NA,NA,Third Party Security Management
+KC19,Identity & Access Management,"IAM-360  || 
+IAM-370  || 
+IAM-660","IAM-360: Apply MFA commensurate with the Information Asset, Information System and Technology Infrastructure Rating. 
+[Reference: 6.2.1 – Authentication Requirements Matrix Table and 6.2.4 – Multi Factor Authentication]
+|| 
+IAM-370: Ensure usage of an MFA solution is security assessed and approved by the Group. 
+[Reference: 6.2.4 – Multi Factor Authentication]
+|| 
+IAM-660: Apply MFA to authenticate the User’s identity when unlocking an account or changing a forgotten password.
+[Reference: 6.2.1 – Authentication Requirements Matrix Table and 6.2.4 – Multi Factor Authentication]",Identity and Access Management
+KC19,Identity & Access Management,"IAM-360  || 
+IAM-370  || 
+IAM-660","IAM-360: Apply MFA commensurate with the Information Asset, Information System and Technology Infrastructure Rating. 
+[Reference: 6.2.1 – Authentication Requirements Matrix Table and 6.2.4 – Multi Factor Authentication]
+|| 
+IAM-370: Ensure usage of an MFA solution is security assessed and approved by the Group. 
+[Reference: 6.2.4 – Multi Factor Authentication]
+|| 
+IAM-660: Apply MFA to authenticate the User’s identity when unlocking an account or changing a forgotten password.
+[Reference: 6.2.1 – Authentication Requirements Matrix Table and 6.2.4 – Multi Factor Authentication]",Identity and Access Management
+KC20b,Identity and Access Management,IAM-190,"IAM-190: Establish a documented process for managing Accounts with Privileged attribute in Information Systems and Technology Infrastructure (including Local Accounts with Privileged attribute) which adhere to the following: 
+a) Technique for controlling Account (with Privileged attribute) access and use for each Information System and Technology Infrastructure must be determined: Account escalation (Individual Account) or account sharing (Generic Account); 
+b) Privileged entitlements for each account must be identified, approved, and recorded 
+c) Every usage must be directly associated with defined, planned, and approved security or administrative activity [For example: Change Request or Incident]. This must be ensured through implementation of a Just-In-Time Access control model (if not technically feasible then exception must be documented [including risk assessment]). ""Broker and remove access"" type is preferred and recommended 
+d) Password for Account with Privileged attribute must be securely vaulted when not in use 
+e) Password for Account with Privileged attribute must be changed after each usage 
+f) Access to Account with Privileged attribute must be restricted to Staff authorised by Information System Owner or Technology Infrastructure Owner 
+g) Controls must be in place to ensure that identification of authorised Staff, using Account with Privileged attribute at any time, is possible. (This must include full auditing and non-repudiation mechanisms) 
+h) Must be recertified every six months 
+i) Every Account with Privileged attribute must be risk assessed 
+j) Staff having access to any Information System or Technology Infrastructure with the usage of any Generic Account with Privileged attribute can't have access to such Information System or Technology Infrastructure with the usage of any Individual Account 
+k) Staff having access to any Information System or Technology Infrastructure with the usage of any Individual Account with Privileged attribute can't have access to such Information System or Technology Infrastructure with the usage of any other Individual Account 
+
+[Reference: IAM-135]",Identity and Access Management
+KC20b,Identity and Access Management,IAM-190,"IAM-190: Establish a documented process for managing Accounts with Privileged attribute in Information Systems and Technology Infrastructure (including Local Accounts with Privileged attribute) which adhere to the following: 
+a) Technique for controlling Account (with Privileged attribute) access and use for each Information System and Technology Infrastructure must be determined: Account escalation (Individual Account) or account sharing (Generic Account); 
+b) Privileged entitlements for each account must be identified, approved, and recorded 
+c) Every usage must be directly associated with defined, planned, and approved security or administrative activity [For example: Change Request or Incident]. This must be ensured through implementation of a Just-In-Time Access control model (if not technically feasible then exception must be documented [including risk assessment]). ""Broker and remove access"" type is preferred and recommended 
+d) Password for Account with Privileged attribute must be securely vaulted when not in use 
+e) Password for Account with Privileged attribute must be changed after each usage 
+f) Access to Account with Privileged attribute must be restricted to Staff authorised by Information System Owner or Technology Infrastructure Owner 
+g) Controls must be in place to ensure that identification of authorised Staff, using Account with Privileged attribute at any time, is possible. (This must include full auditing and non-repudiation mechanisms) 
+h) Must be recertified every six months 
+i) Every Account with Privileged attribute must be risk assessed 
+j) Staff having access to any Information System or Technology Infrastructure with the usage of any Generic Account with Privileged attribute can't have access to such Information System or Technology Infrastructure with the usage of any Individual Account 
+k) Staff having access to any Information System or Technology Infrastructure with the usage of any Individual Account with Privileged attribute can't have access to such Information System or Technology Infrastructure with the usage of any other Individual Account 
+
+[Reference: IAM-135]",Identity and Access Management
+KC20,Identity and Access Management,IAM-190,"IAM-190: Establish a documented process for managing Accounts with Privileged attribute in Information Systems and Technology Infrastructure (including Local Accounts with Privileged attribute) which adhere to the following: 
+a) Technique for controlling Account (with Privileged attribute) access and use for each Information System and Technology Infrastructure must be determined: Account escalation (Individual Account) or account sharing (Generic Account); 
+b) Privileged entitlements for each account must be identified, approved, and recorded 
+c) Every usage must be directly associated with defined, planned, and approved security or administrative activity [For example: Change Request or Incident]. This must be ensured through implementation of a Just-In-Time Access control model (if not technically feasible then exception must be documented [including risk assessment]). ""Broker and remove access"" type is preferred and recommended 
+d) Password for Account with Privileged attribute must be securely vaulted when not in use 
+e) Password for Account with Privileged attribute must be changed after each usage 
+f) Access to Account with Privileged attribute must be restricted to Staff authorised by Information System Owner or Technology Infrastructure Owner 
+g) Controls must be in place to ensure that identification of authorised Staff, using Account with Privileged attribute at any time, is possible. (This must include full auditing and non-repudiation mechanisms) 
+h) Must be recertified every six months 
+i) Every Account with Privileged attribute must be risk assessed 
+j) Staff having access to any Information System or Technology Infrastructure with the usage of any Generic Account with Privileged attribute can't have access to such Information System or Technology Infrastructure with the usage of any Individual Account 
+k) Staff having access to any Information System or Technology Infrastructure with the usage of any Individual Account with Privileged attribute can't have access to such Information System or Technology Infrastructure with the usage of any other Individual Account 
+
+[Reference: IAM-135]",Identity and Access Management
+KC40a,Data Storage and Backup,"DSB-230  ||  
+DSB-330","DSB-230: Ensure Backups are scheduled for the Information Systems based on business criticality. At minimum for Information Systems S-BIA rated 3 to 5 all Information need to be backed up.
+||
+DSB-330: Ensure Backup and Restore of Information from Information Systems S-BIA rated 3 to 5 are tested annually and validated.",Secure Configuration Management
+KC40a,Data Storage and Backup,"DSB-230  ||  
+DSB-330","DSB-230: Ensure Backups are scheduled for the Information Systems based on business criticality. At minimum for Information Systems S-BIA rated 3 to 5 all Information need to be backed up.
+||
+DSB-330: Ensure Backup and Restore of Information from Information Systems S-BIA rated 3 to 5 are tested annually and validated.",Secure Configuration Management
+KC40a,Data Storage and Backup,"DSB-230  ||  
+DSB-330","DSB-230: Ensure Backups are scheduled for the Information Systems based on business criticality. At minimum for Information Systems S-BIA rated 3 to 5 all Information need to be backed up.
+||
+DSB-330: Ensure Backup and Restore of Information from Information Systems S-BIA rated 3 to 5 are tested annually and validated.",Secure Configuration Management
+KC111a,Vulnerability Identification and Management,"VIAM-250  ||  
+VIAM-270","VIAM-250: Complete Code Security Review in accordance to the minimum requirements  ||
+VIAM-270: Ensure that activities such as Vulnerability Scans, Penetration Testing, Security Configuration Validation, and Code Security Review are performed as per the defined timeline in Table 1. [Reference: Table 1 - Vulnerability Identification Frequency] ",System Lifecycle Security (incl. Vulnerability Management)
+KC103b,Security Patch Management,SPM-220                  ,SPM-220: Deploy Security Patches on Production and Non-Production Environments in line with Appendix 6.2 Patch Remediation by Vulnerability Criticality and Asset Classification (all in Calendar Days). ,System Lifecycle Security (incl. Vulnerability Management)
+KC103b,Security Patch Management,SPM-220                  ,SPM-220: Deploy Security Patches on Production and Non-Production Environments in line with Appendix 6.2 Patch Remediation by Vulnerability Criticality and Asset Classification (all in Calendar Days). ,System Lifecycle Security (incl. Vulnerability Management)
+KC99b,Vulnerability Identification and Management,VIAM-330  || VIAM-410,"VIAM-330: Ensure that all vulnerabilities are assessed, classified using unified rating and prioritized using a risk-based approach taking into consideration:likelihood assessment,impact assessment (S-BIA),Information Asset rating or Information Classification,location of the Information Systems or Technology Infrastructure,compensating controls,threat intelligence,vulnerability rating (at first using Common Vulnerability Scoring System (CVSS), if not available then using vendor scoring) they are addressing.[Reference: Table 2 – Vulnerabilities Classification and Remediation] 
+||
+VIAM-410: Ensure that identified vulnerabilities are fully remediated. ",System Lifecycle Security (incl. Vulnerability Management)
+KC99b,Vulnerability Identification and Management,VIAM-330  || VIAM-410,"VIAM-330: Ensure that all vulnerabilities are assessed, classified using unified rating and prioritized using a risk-based approach taking into consideration:likelihood assessment,impact assessment (S-BIA),Information Asset rating or Information Classification,location of the Information Systems or Technology Infrastructure,compensating controls,threat intelligence,vulnerability rating (at first using Common Vulnerability Scoring System (CVSS), if not available then using vendor scoring) they are addressing.[Reference: Table 2 – Vulnerabilities Classification and Remediation] 
+||
+VIAM-410: Ensure that identified vulnerabilities are fully remediated. ",System Lifecycle Security (incl. Vulnerability Management)
+KC12b,NA,NA,NA,Security Awareness and Training
+KC72,NA,NA,NA,Information Protection
+KC72,NA,NA,NA,Information Protection
+KC61,NA,NA,NA,Information Protection
+KC62,Data Leakage Prevention,"DLP-010a  ||
+
+
+DLP-270","DLP-010a: Define and enforce security policies and data protection mechanisms to proactively prevent sensitive data from leaving the Group’s IT environment.
+[Enforcement of the data protection may be executed as centrally enforced configuration policy (such as AD GPO, dedicated agent delivered, etc.) or by defining and publishing configuration guidelines for specific technologies or platforms.]  ||
+
+DLP-270: Ensure the required configuration and operations (as shared by Process Owner) are deployed and maintained effectively for owned Technology Infrastructure to meet the DLP requirements.",Information Protection
+KC64,Data Leakage Prevention,"DLP-010a  ||
+
+
+DLP-270","DLP-010a: Define and enforce security policies and data protection mechanisms to proactively prevent sensitive data from leaving the Group’s IT environment.
+[Enforcement of the data protection may be executed as centrally enforced configuration policy (such as AD GPO, dedicated agent delivered, etc.) or by defining and publishing configuration guidelines for specific technologies or platforms.]  ||
+
+DLP-270: Ensure the required configuration and operations (as shared by Process Owner) are deployed and maintained effectively for owned Technology Infrastructure to meet the DLP requirements.",Information Protection
+KC61,Data Leakage Prevention,DLP-007b,"DLP-007b: Ensure that DLP process is aligned with and supports Incident Management and Response processes, i.e.: 
+1) any events or incidents identified in the DLP area are reported and handled in a timely manner, 
+2) applicable reference/supporting information is provided to support incident verification and analysis.",Information Protection
+KC63,Data Leakage Prevention,DLP-007b,"DLP-007b: Ensure that DLP process is aligned with and supports Incident Management and Response processes, i.e.: 
+1) any events or incidents identified in the DLP area are reported and handled in a timely manner, 
+2) applicable reference/supporting information is provided to support incident verification and analysis.",Information Protection
+KC58,Data Leakage Prevention,DLP-007b,"DLP-007b: Ensure that DLP process is aligned with and supports Incident Management and Response processes, i.e.: 
+1) any events or incidents identified in the DLP area are reported and handled in a timely manner, 
+2) applicable reference/supporting information is provided to support incident verification and analysis.",Information Protection
+KC56a,NA,NA,NA,Information Protection
+KC56a,NA,NA,NA,Information Protection
+KC63,Data Leakage Prevention,"DLP-010b  ||
+
+DLP Standards – Appendix Section 7.2","DLP-010b: Ensure that the data protection approach and enforcement consider (where applicable): 1) identified and prioritised data loss vectors, as defined in the Strategy 2) asset exposure to DLP identified threats and risks, as per the Strategy, 3) sensitivity of the data in question as per its Confidentiality rating, 4) data content and data use context, 5) baseline requirements, as listed in Appendix – section 7.2 “Baseline DLP Requirements for Assets and Information”. 
+
+DLP Standards – Appendix Section 7.2: USB ports (or any such removal media interfaces) blocking by default on laptops, desktops, servers, workstations unless authorised for use by exception process. Initiation of semi-annual reviews of the user access granted to portable storage devices use.",Information Protection
+KC133,Security Logging and Monitoring,"SLM-180 (e)  ||  
+SLM-240","SLM-180: Ensure security event monitoring is in place for the Information Systems and Technology Infrastructure:
+a) In line with the baseline requirements of the Standard (see Appendix section 7.3 Security Monitoring – Baseline Requirements);
+b) Aligned with the threat intelligence and threat-profiles of the monitored hosts;
+c) Effectively supporting identification of ICS events and incidents that can impact the security of the monitored environment;
+d) Accommodating specific monitoring requirements reported by Information System Owners;
+e) Generating alerts and notifications in the case of ICS events or incident identification.  ||  
+SLM-240: Ensure the security event logs and reports are examined in a timely manner appropriate to the criticality of the events and alerts received from the monitoring solution. [Reference: Security Incident and Response Management Standard]",Security Logging and Monitoring
+KC134,Security Logging and Monitoring,"SLM-180 (e)  ||  
+SLM-240","SLM-180: Ensure security event monitoring is in place for the Information Systems and Technology Infrastructure:
+a) In line with the baseline requirements of the Standard (see Appendix section 7.3 Security Monitoring – Baseline Requirements);
+b) Aligned with the threat intelligence and threat-profiles of the monitored hosts;
+c) Effectively supporting identification of ICS events and incidents that can impact the security of the monitored environment;
+d) Accommodating specific monitoring requirements reported by Information System Owners;
+e) Generating alerts and notifications in the case of ICS events or incident identification.  ||  
+SLM-240: Ensure the security event logs and reports are examined in a timely manner appropriate to the criticality of the events and alerts received from the monitoring solution. [Reference: Security Incident and Response Management Standard]",Security Logging and Monitoring
+KC20,Identity and Access Management,IAM-190,"IAM-190: Establish a documented process for managing Accounts with Privileged attribute in Information Systems and Technology Infrastructure (including Local Accounts with Privileged attribute) which adhere to the following: 
+a) Technique for controlling Account (with Privileged attribute) access and use for each Information System and Technology Infrastructure must be determined: Account escalation (Individual Account) or account sharing (Generic Account); 
+b) Privileged entitlements for each account must be identified, approved, and recorded 
+c) Every usage must be directly associated with defined, planned, and approved security or administrative activity [For example: Change Request or Incident]. This must be ensured through implementation of a Just-In-Time Access control model (if not technically feasible then exception must be documented [including risk assessment]). ""Broker and remove access"" type is preferred and recommended 
+d) Password for Account with Privileged attribute must be securely vaulted when not in use 
+e) Password for Account with Privileged attribute must be changed after each usage 
+f) Access to Account with Privileged attribute must be restricted to Staff authorised by Information System Owner or Technology Infrastructure Owner 
+g) Controls must be in place to ensure that identification of authorised Staff, using Account with Privileged attribute at any time, is possible. (This must include full auditing and non-repudiation mechanisms) 
+h) Must be recertified every six months 
+i) Every Account with Privileged attribute must be risk assessed 
+j) Staff having access to any Information System or Technology Infrastructure with the usage of any Generic Account with Privileged attribute can't have access to such Information System or Technology Infrastructure with the usage of any Individual Account 
+k) Staff having access to any Information System or Technology Infrastructure with the usage of any Individual Account with Privileged attribute can't have access to such Information System or Technology Infrastructure with the usage of any other Individual Account 
+
+[Reference: IAM-135]",Identity and Access Management
+KC55b,Anti-Malware,"AM-008a (2) & (4)
+","AM-008a: Ensure that any tools deployed to support AM purposes:
+1) is managed centrally so that policy enforcement and configuration is carried out centrally, including an automated malware definitions refresh,
+2) actively control monitored hosts compliance status (see section 7.2 “Review Frequency” for recommended frequency of the reviews/checks),
+3) ensures coverage of hosts in scope of the AM approach and strategy,
+4) enables remediation of issues identified by the AM tool (such as AM agent failures, signature accuracy, etc.),
+5) is integrated with applicable Group solutions (such as SIEM, security monitoring tools, SCCM),
+6) have access control and adhere to Group's Identity and Access Management Standard,
+7) is documented (architecture, configuration, data flows, services provided).
+[Reference: Security Logging and Monitoring Standard, Identity and Access Management Standard]
+Note: the AM tooling coverage –technical compatibility with Group approved product and platforms",Secure Configuration Management
+KC63,Data Leakage Prevention,"DLP-010b  ||
+
+DLP Standards – Appendix Section 7.2","DLP-010b: Ensure that the data protection approach and enforcement consider (where applicable): 1) identified and prioritised data loss vectors, as defined in the Strategy 2) asset exposure to DLP identified threats and risks, as per the Strategy, 3) sensitivity of the data in question as per its Confidentiality rating, 4) data content and data use context, 5) baseline requirements, as listed in Appendix – section 7.2 “Baseline DLP Requirements for Assets and Information”. 
+
+DLP Standards – Appendix Section 7.2: USB ports (or any such removal media interfaces) blocking by default on laptops, desktops, servers, workstations unless authorised for use by exception process. Initiation of semi-annual reviews of the user access granted to portable storage devices use.",Information Protection
+KC58,Data Leakage Prevention,"DLP-010a  ||
+
+
+DLP-270  ||
+
+DLP-008a","DLP-010a: Define and enforce security policies and data protection mechanisms to proactively prevent sensitive data from leaving the Group’s IT environment.
+[Enforcement of the data protection may be executed as centrally enforced configuration policy (such as AD GPO, dedicated agent delivered, etc.) or by defining and publishing configuration guidelines for specific technologies or platforms.]  ||
+
+DLP-270: Ensure the required configuration and operations (as shared by Process Owner) are deployed and maintained effectively for owned Technology Infrastructure to meet the DLP requirements.  ||
+
+DLP-008a: Define and deploy data discovery capabilities, which: 
+1) use the Group approach to Information classification for determining sensitive data repositories and identification patterns, i.e.: 
+a) determine the sensitivity of the Information based on the Information Asset Register and corresponding ‘Confidentiality’ rating, 
+b) address the Information Asset representation in terms of sensitive data fields, patterns, and attributes, as defined by Information Asset / Application / Information System / Technology Infrastructure Owner, 
+c) ensure the Information Assets rated L5 and L4 for Confidentiality are in scope of the data discovery approach, 
+d) optionally, include the L1-L3 Confidentiality rated Information Assets, based on identified DLP related risk/threat profile. 
+2) uses Group Information Systems and Technology Infrastructure (asset) repositories to determine the scope and applicability the data discovery scans, 
+3) locate sensitive data at-rest, and (if required) notify the accountable parties to remediate, 
+4) notify respective Information System/Information Asset Owners to undertake data clean ups and removal if they deem the data is no longer required",Information Protection
+KC63,Data Leakage Prevention,"DLP-010b  ||
+
+DLP Standards – Appendix Section 7.2","DLP-010b: Ensure that the data protection approach and enforcement consider (where applicable): 1) identified and prioritised data loss vectors, as defined in the Strategy 2) asset exposure to DLP identified threats and risks, as per the Strategy, 3) sensitivity of the data in question as per its Confidentiality rating, 4) data content and data use context, 5) baseline requirements, as listed in Appendix – section 7.2 “Baseline DLP Requirements for Assets and Information”. 
+
+DLP Standards – Appendix Section 7.2: USB ports (or any such removal media interfaces) blocking by default on laptops, desktops, servers, workstations unless authorised for use by exception process. Initiation of semi-annual reviews of the user access granted to portable storage devices use.",Information Protection
+B-IP-DCM-CO1,Digital Certificate Management,"DCM-030 ||
+DCM-050 ||
+DCM-100 ||
+DCM-150","DCM-030: Ensure that all Internal Digital Certificates [DC] are issued from the Group Approved Internal Certificate Authority [ICA] team. ||
+DCM-050: Only use Internal self-signed Digital Certificates in Non-Production Environment with S-BIA rating 1-2. ||
+DCM-100: Ensure that issued Digital Certificate is requested to ICA for renewal at least 30 days before its expiration. ||
+DCM-150: Ensure that all Digital Certificates are issued/procured, managed, and tracked by the ICA team.",Information Protection
+B-IP-DCM-CO1,Digital Certificate Management,"DCM-030 ||
+DCM-050 ||
+DCM-100 ||
+DCM-150","DCM-030: Ensure that all Internal Digital Certificates [DC] are issued from the Group Approved Internal Certificate Authority [ICA] team. ||
+DCM-050: Only use Internal self-signed Digital Certificates in Non-Production Environment with S-BIA rating 1-2. ||
+DCM-100: Ensure that issued Digital Certificate is requested to ICA for renewal at least 30 days before its expiration. ||
+DCM-150: Ensure that all Digital Certificates are issued/procured, managed, and tracked by the ICA team.",Information Protection
+KC100p,Security Patch Management,SPM-220                  ,SPM-220: Deploy Security Patches on Production and Non-Production Environments in line with Appendix 6.2 Patch Remediation by Vulnerability Criticality and Asset Classification (all in Calendar Days). ,System Lifecycle Security (incl. Vulnerability Management)
+KC100p,Security Patch Management,SPM-220                  ,SPM-220: Deploy Security Patches on Production and Non-Production Environments in line with Appendix 6.2 Patch Remediation by Vulnerability Criticality and Asset Classification (all in Calendar Days). ,System Lifecycle Security (incl. Vulnerability Management)
+KC100k,Security Patch Management,SPM-220                  ,SPM-220: Deploy Security Patches on Production and Non-Production Environments in line with Appendix 6.2 Patch Remediation by Vulnerability Criticality and Asset Classification (all in Calendar Days). ,System Lifecycle Security (incl. Vulnerability Management)
+KC100k,Security Patch Management,SPM-220                  ,SPM-220: Deploy Security Patches on Production and Non-Production Environments in line with Appendix 6.2 Patch Remediation by Vulnerability Criticality and Asset Classification (all in Calendar Days). ,System Lifecycle Security (incl. Vulnerability Management)
+KC100n,Security Patch Management,SPM-220                  ,SPM-220: Deploy Security Patches on Production and Non-Production Environments in line with Appendix 6.2 Patch Remediation by Vulnerability Criticality and Asset Classification (all in Calendar Days). ,System Lifecycle Security (incl. Vulnerability Management)
+KC105,Security Patch Management,SPM-220                  ,SPM-220: Deploy Security Patches on Production and Non-Production Environments in line with Appendix 6.2 Patch Remediation by Vulnerability Criticality and Asset Classification (all in Calendar Days). ,System Lifecycle Security (incl. Vulnerability Management)
+KC100a,Vulnerability Identification and Management,VIAM-330  || VIAM-410,"VIAM-330: Ensure that all vulnerabilities are assessed, classified using unified rating and prioritized using a risk-based approach taking into consideration:likelihood assessment,impact assessment (S-BIA),Information Asset rating or Information Classification,location of the Information Systems or Technology Infrastructure,compensating controls,threat intelligence,vulnerability rating (at first using Common Vulnerability Scoring System (CVSS), if not available then using vendor scoring) they are addressing.[Reference: Table 2 – Vulnerabilities Classification and Remediation] 
+||
+VIAM-410: Ensure that identified vulnerabilities are fully remediated. ",ICS Risk and Controls in RB PU
+KC2,"Information Classification    ||
+Secure Asset Management
+ ","INC-090  || 
+INC-110  || 
+SAM-100  || 
+SAM-110  ||
+INC-140  || 
+INC-100  || 
+SAM-130","INC-090: Identify the Information Systems owned by the business function.  ||
+INC-110: Review the identification of Information Systems on an annual basis.  ||
+SAM-100: Ensure that the Information Systems supporting owned Processed are identified, with ownership assigned.  ||
+SAM-110: Oversee the accuracy of the information regarding the Information Systems
+in the Technology Asset Inventory.  ||
+INC-140: Record and maintain a register of all Information Systems in the Group register.  ||
+INC-100: Assign an Information System Owner to each Information System and Technology Infrastructure Owner to each Technology Infrastructure.  ||
+SAM-130: Maintain the completeness and accuracy of the Inventory records for owned Technology Asset by:registering owned Assets,ensuring that the Inventory records for the owned Assets are accurate and up to date and retain required level of details, as determined by the [Technology Asset Management] Process Ownerreporting to [Technology Asset Management] Process Owner Asset changes, applicable incidents, and issues, in line with operational requirements and approach predefined on Process level.",Secure Asset Management
 
